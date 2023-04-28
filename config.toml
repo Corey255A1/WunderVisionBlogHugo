@@ -1,4 +1,17 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'WunderVision'
-sectionPagesMenu = 'main'
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+[[menu.main]]
+  name = 'Blog'
+  pageRef = '/posts'
+  weight = 20
+[[menu.main]]
+  name = 'Projects'
+  pageRef = '/projects'
+  weight = 30
+

@@ -1,0 +1,12 @@
+{{ define "header" }}
+<div>
+    WunderVision
+    {{$currentPage := .}}
+    {{- range site.Menus.main }}
+    
+    <a href="{{ .URL }}" class="{{if eq .URL $currentPage.RelPermalink}}active {{ end }}">
+        {{ .Name }}
+    </a>
+    {{- end }}
+</div>
+{{ end }}
