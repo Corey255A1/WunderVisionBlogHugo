@@ -5,13 +5,16 @@ title = 'WunderVision'
 [[menu.main]]
   name = 'Home'
   pageRef = '/'
+  url = '/'
   weight = 10
 [[menu.main]]
   name = 'Blog'
   pageRef = '/posts'
+  url = '/posts/'
   weight = 20
 [[menu.main]]
   name = 'Projects'
   pageRef = '/projects'
+  url = '/projects/'
   weight = 30
 

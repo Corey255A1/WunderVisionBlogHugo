@@ -27,4 +27,11 @@ Part of the issue was the command **hugo server** doesn't seem to compile the ma
 If you change the command to **hugo -D server** it will compile and then everything will show up.
 
 To render the blog Post list and post pages, it was a matter of making a **posts** directory under the layouts and defining the list.html and the single.html.
-[ inser code snip]
+[insert code snip]
+
+I finally noticed the **draft** flag that is in the header. That is what causes those markdown files to not get compiled with out the **-D**. I had been wondering what was made it think that file was a draft.
+
+Another issue I just ran in to was apparently between version 0.8 and the latest version +0.86 there was a change in how the menu urls are defined in the menu section of the config. Using **pageRef** was enough in the new version, but in an older version I had to define **url** as well. I ran into this problem because I was trying to work on it while I was on my chromebook which had a different version. In addition, the url parameter I had to include the trailing / to ensure that it matched the permaLink of the page
+[insert code snip]
+
+I got the navbar highlighting the active link after getting the menu figured out. It was just comparing the URL of the menu to the permaLink of the current page, and applying the active class to the link

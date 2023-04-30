@@ -1,12 +1,11 @@
 {{ define "header" }}
-<div>
-    WunderVision
+<header class="navbar menu color1">
+    <h2><img src="/images/wundervisionbot_sd.png" class="icon">WunderVision</h2>
     {{$currentPage := .}}
     {{- range site.Menus.main }}
-    
-    <a href="{{ .URL }}" class="{{if eq .URL $currentPage.RelPermalink}}active {{ end }}">
+    <a href="{{ .URL }}" class="color3 btn {{if eq .URL $currentPage.RelPermalink}}active {{ end }}">
         {{ .Name }}
     </a>
     {{- end }}
-</div>
+</header>
 {{ end }}

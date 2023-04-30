@@ -1,9 +1,18 @@
 {{ define "main" }}
-<ul>
-{{ range .Pages }}
-<li>
-  <a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a>
-</li>
-{{ end }}
-</ul>
+  <ul class="list-group">
+  {{ range .Pages }}
+  <li>
+    <a class="card color3" href="{{ .Permalink }}">
+      <div><img class="thumbnail" src="/images/wundervisionbot_sd.png"></div>
+      <div>
+        <h3>{{ .Title }}</h3>
+        {{ .Date.Format "2006-01-02" }}
+        <div>
+          {{ .Summary }}
+        </div>
+      </div>
+    </a>
+  </li>
+  {{ end }}
+  </ul>
 {{ end }}
