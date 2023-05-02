@@ -246,14 +246,14 @@ All there is left to do is deploy it and add the connection string to the app se
 ### Using sqlcmd
 I wanted a way to access the database from a command line, but when I was getting things going, I was content with just executing the sql commands from VS Code.
 Somewhere along the line I must have installed Microsoft Sql Server because I have access to sqlcmd. This allows you to connect to the Sql Server database and make queries. Though it does not seem intuitive at first.
-
-    sqlcmd -S [serverurl].database.windows.net -d [database] -U [username] -P [password]
-
+```bash
+sqlcmd -S [serverurl].database.windows.net -d [database] -U [username] -P [password]
+```
 Once logged in you should be greeted with 1>
 You can list the tables with the command
-
-    select * from sysobjects where xtype='U'
-    go
-
+```sql
+select * from sysobjects where xtype='U'
+go
+```
 From here it becomes a matter of knowing how to use the SQL Server style of SQL. It seems like every statement ends in a go.
 I’m glad I figured this out, because now I can play around with making new databases, and continue my learning journey.

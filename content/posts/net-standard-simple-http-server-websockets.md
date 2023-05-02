@@ -126,7 +126,7 @@ The most basic WebSocket in Javascript sends over string data on the click of a 
 On the server side, I just have it respond to the client with a This is a WebSocket server response!
 
 <p class="blog-img center lg">
-    [IMAGE(websocket_request.jpg)]
+    <img src="/images/blog/websocket_request.jpg" alt="">
     <div class="center">HTTP Handshake and data</div>
 </p>
 

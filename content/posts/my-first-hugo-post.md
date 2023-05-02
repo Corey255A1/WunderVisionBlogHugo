@@ -6,12 +6,12 @@ thumbnail: /images/blog/2016-11-29-The_ESP8266.jpg
 draft: true
 ---
 
-# Introduction
+## Introduction
 I have been messing around with using different server side technologies such as Flask and ASP.Net. But, as I started to think about it, having these server side rendering applications is a bit over kill for blog posts that I rarely update. I knew things existed to generate static webpages from templates, and for now I'm going to dig into **Hugo**.
 
 I'm not going to get into the installation of hugo because there are a lot of tutorials on that already and it is pretty straight forward. I'm going to dive right into the build of my site.
 
-# Building the layouts
+## Building the layouts
 The Hugo tutorial has you install a template. Which is a good starting point to see how it all works and its potential. However, I want to build my own pages not just use a premade template.
 
 I haven't really found too much information yet about how to build your layout from the ground up, so its taking a bit of research.
@@ -37,3 +37,20 @@ Another issue I just ran in to was apparently between version 0.8 and the latest
 [insert code snip]
 
 I got the navbar highlighting the active link after getting the menu figured out. It was just comparing the URL of the menu to the permaLink of the current page, and applying the active class to the link
+
+One cool thing that I realized a couple days ago when using markdown for something else is that some of the markdown renderers actually will code highlight!
+
+You can and it will auto highlight it for you!:
+```markdown
+    ```python
+    if this == that:
+        print(this)
+    ```
+```
+```python
+if this == that:
+    print(this)
+```
+Which is pretty cool!
+## Deploying
+I have been on a kick using Azure. Azure has a Static Web App option that allows you to sync directly from GitHub. This project then is directly built and deployed to my website automatically!

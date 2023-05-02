@@ -6,7 +6,7 @@ thumbnail: "/images/blog/2019-08-24-Simple_WPF_Compass_Control.jpg"
 slug: "simple-wpf-compass-control"
 ---
 <p class="blog-img center md">
-    [IMAGE(WPFCompass.jpg)]
+    <img src="/images/blog/WPFCompass.jpg" alt="">
     <div class="center">Simple XML File</div>
 </p>
 
@@ -21,14 +21,14 @@ I highly recommend downloading Microsoft Expression Design 4. Its a little bit o
 **Update 1/10/2021 -** It might not be possible to find Expression Design 4 as an official download anymore! :( I've never used Blend for Visual Studio but I guess its about time to figure it out.
 
 <p class="blog-img center lg">
-    [IMAGE(Compass_Expression.jpg)]
+    <img src="/images/blog/Compass_Expression.jpg" alt="">
     <div class="center">Two Layers of the Compass</div>
 </p>
 
 When you export from Expression, you can export it as a WPF Resource. Which you can then load and make the Fill of things like Rectangle or Ellipse.
 
 <p class="blog-img center lg">
-    [IMAGE(Compass_Expression_Export.jpg)]
+    <img src="/images/blog/Compass_Expression_Export.jpg" alt="">
     <div class="center">Export As WPF Resource Dictionary</div>
 </p>
 
@@ -283,7 +283,7 @@ Here you can see I just add the Compass control to the window. In the code behin
 You can also see that you can set the StarColor and the NeedleLength directly from the XAML here. However, in order to bind those values to something, you would have to change them from Properties to DependencyProperties.
 
 <p class="blog-img center md">
-    [IMAGE(Compass.gif)]
+    <img src="/images/blog/Compass.gif" alt="">
     <div class="center">Simple XML File</div>
 </p>
 

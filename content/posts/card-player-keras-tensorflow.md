@@ -22,7 +22,7 @@ Lucky you I have the 8 decks of cards on github here!
 [https://github.com/Corey255A1/PlayingCardsNeuralNet/blob/master/PlayingCards.zip](https://github.com/Corey255A1/PlayingCardsNeuralNet/blob/master/PlayingCards.zip) 
 
 <p class="blog-img center lg">
-    [IMAGE(cards8-sm.jpg)]
+    <img src="/images/blog/cards8-sm.jpg" alt="">
     <div class="center">Starting Image</div>
 </p>
 
@@ -30,7 +30,7 @@ Rather than crop out, save and label each card by hand, I wrote a simple script 
 Using OpenCV, I grey scale, blur, threshold, dilate and houghlines to find the horizontal and vertical lines. Each set of cards required only minor tweaks to some of the parameters, but by the end I had it pretty general.
 
 <p class="blog-img center lg">
-    [IMAGE(cards_process1-sm.jpg)]
+    <img src="/images/blog/cards_process1-sm.jpg" alt="">
     <div class="center">Threshold Image</div>
 </p>
 
@@ -46,14 +46,14 @@ At first I was trying to find all of the lines at once, but it turned out to be 
 The gaps in between the cards results in lots of different lines, but I wanted to boil it down to a single line. I came up with my own little technique to bin the lines that wound up be pretty effective. Basically for each line, I would look at just one of end points x,y. There are two list of baskets and X and a Y basket. The processing on the image limited the lines to be fairly long and discontinuous. That was my assumption. Each different Y value would be a different horizontal line and each different X value would be a vertical line.
 
 <p class="blog-img center lg">
-    [IMAGE(cards_process2-sm.jpg)]
+    <img src="/images/blog/cards_process2-sm.jpg" alt="">
     <div class="center">Dividing Lines</div>
 </p>
 
 Each Basket had a threshold where if several Ys fell into the same basket, At the end, I would only take the average of that Basket and consider that the end point of a line. 
 
 <p class="blog-img center md">
-    [IMAGE(aceofspades.jpg)]
+    <img src="/images/blog/aceofspades.jpg" alt="">
     <div class="center">Extracted Ace</div>
 </p>
 
@@ -67,12 +67,12 @@ There is a technique called augmenting that warps the cards in various controlle
 Some of the augmenting that I did was, Rotate180 (since Cards can be either way), Slight Rotation, Darkness/Lightness, Perspective, Scale, and Blur.
 
 <p class="blog-img center md">
-    [IMAGE(card2c_normal.jpg)]
+    <img src="/images/blog/card2c_normal.jpg" alt="">
     <div class="center">Unmodified 2 of Clubs</div>
 </p>
 
 <p class="blog-img center md">
-    [IMAGE(card2c_warped.jpg)]
+    <img src="/images/blog/card2c_warped.jpg" alt="">
     <div class="center">Augmented 2 of Clubs</div>
 </p>
 

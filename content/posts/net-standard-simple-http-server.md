@@ -167,7 +167,7 @@ There is the piece of code that looks for all other files that are requested wit
 And with that, we can serve up some basic webpages all with images, CSS and Javascript!
 
 <p class="blog-img center lg">
-    [IMAGE(serving_webpage.jpg)]
+    <img src="/images/blog/serving_webpage.jpg" alt="">
     <div class="center">HTTP Handshake and data</div>
 </p>
 

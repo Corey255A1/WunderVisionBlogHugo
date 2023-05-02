@@ -6,7 +6,7 @@ thumbnail: "/images/blog/2019-06-24-UWP_vs_Net_Framework_File_Access.jpg"
 slug: "uwp-vs-net-framework-file-access"
 ---
 <p class="blog-img center md">
-    [IMAGE(FileSystem.png)]
+    <img src="/images/blog/FileSystem.png" alt="">
     <div class="center">Simple XML File</div>
 </p>
 

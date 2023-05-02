@@ -6,13 +6,13 @@ thumbnail: "/images/blog/2016-11-29-CVS_Camera.jpg"
 slug: "cvs-pure-digital-disposable-camera"
 ---
 <p class="blog-img center md">
-    [IMAGE(thumb.jpg)]
+    <img src="/images/blog/thumb.jpg" alt="">
     <div class="center">Disecting the CVS Camera</div>
 </p>
 So I was recently given the challenge of retrieving some footage from a ~10 year old Disposable Digital camera. Some time around 2006 and 2007, there existed Disposable Digital cameras marketed by CVS Pharmacy and created by Pure Digital which was to eventually make the Flip video camera. The premise was that the average consumer would purchase these subsidized priced cameras (for around $30), use them to record video and take pictures digitally and send them off to the processing facility. This is where the videos and pictures would be taken off and sent back to the consumer on DVD and the camera would then be repackaged and reused. It was not meant for the average consumer to retrieve the videos and photos off themselves. I'm writing this blog entry now because I think the research and finding the tools to do the hack (because this was a hack) sheds some interesting light on the way information is stored on the internet. And also the persistence of a group of hackers that provided ways for the general population to reuse these one time use cameras. The first step was to see if someone had actually already hacked the devices and find out if it was even possible. Of course it was. Finding the pinout for the connections was easy and I quickly soldered in the USB plugs to hook it right in to the computer. The next step was to use a generic libusb driver that allowed for low level commands to be sent over USB. 
 
 <p class="blog-img center md">
-    [IMAGE(cvs_camera_connected.jpg)]
+    <img src="/images/blog/cvs_camera_connected.jpg" alt="">
     <div class="center">Connected to computer</div>
 </p>
 

@@ -6,7 +6,7 @@ thumbnail: "/images/blog/2019-08-25-Basic_WPF_Thermometer.jpg"
 slug: "basic-wpf-thermometer"
 ---
 <p class="blog-img center md">
-    [IMAGE(Thermometer.gif)]
+    <img src="/images/blog/Thermometer.gif" alt="">
     <div class="center">WPF Thermometer</div>
 </p>
 
@@ -56,7 +56,7 @@ This is created purely just using Ellipse and Rectangles, no SVG export needed.
 I start off by splitting up the grid. Using the * Allows the grid to be split up into chunks that are a fraction of the total height or width. For example, if you have two ColumnDefinitions with Width="*", what you will have are two columns that are equally sized. If you set one of them to 2* that column will be twice the size of the * column. So the 2* will be 2/3 and the * will be 1/3. Above, the 14* RowDefinition is for the stem of the thermometer. I want it to be 14 times taller than the single *. In this case it will be 14/16 and the other two rows will be 1/16.
 
 <p class="blog-img center md">
-    [IMAGE(Thermostat_Grid.jpg)]
+    <img src="/images/blog/Thermostat_Grid.jpg" alt="">
     <div class="center">Showing the Grid</div>
 </p>
 

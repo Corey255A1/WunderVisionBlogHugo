@@ -14,20 +14,20 @@ Download the latest version of VLC from here: https://www.videolan.org/vlc/
 **1 - Select Video For Compression**
 Launch VLC and select Convert/Save... from the Media file menu bar.
 <p class="blog-img center md">
-    [IMAGE(VLC-convert.jpg)]
+    <img src="/images/blog/VLC-convert.jpg" alt="">
     <div class="center">Conversion Option</div>
 </p>
 This will launch the Open Media window. Click the Add button and chose the file for compression.
 
 <p class="blog-img center md">
-    [IMAGE(VLC-add.jpg)]
+    <img src="/images/blog/VLC-add.jpg" alt="">
     <div class="center">Add your files</div>
 </p>
 
 Select the file from the list box, and click the Convert/Save button.
 
 <p class="blog-img center md">
-    [IMAGE(VLC-convert.jpg)]
+    <img src="/images/blog/VLC-convert.jpg" alt="">
     <div class="center">Begin Conversion Setup</div>
 </p>
 
@@ -35,13 +35,13 @@ Select the file from the list box, and click the Convert/Save button.
 The Convert window will appear. Now from the Profile Selection combo box, I selected the Video for Youtube HD setting. This had a good base to work with.
 
 <p class="blog-img center md">
-    [IMAGE(VLC-Profile.jpg)]
+    <img src="/images/blog/VLC-Profile.jpg" alt="">
     <div class="center">Choose Profile</div>
 </p>
 
 Click on the crescent wrench button (Edit) to edit the settings for the profile.
 <p class="blog-img center md">
-    [IMAGE(VLC-Profile-edit.jpg)]
+    <img src="/images/blog/VLC-Profile-edit.jpg" alt="">
     <div class="center">Edit</div>
 </p>
 
@@ -50,35 +50,35 @@ I only changed a couple settings. This was to make sure that the video met the 5
 These are the default Encapsulation settings. These do not need modified.
 
 <p class="blog-img center md">
-    [IMAGE(VLC-edit.jpg)]
+    <img src="/images/blog/VLC-edit.jpg" alt="">
     <div class="center">Encapsulation</div>
 </p>
 
 On the Video Codec tab, the first sub tab (Encoding Parameters) I modified the Bitrate to 1500kb/s. This should be enough to maintain the quality for low action, not super detailed videos. If the quality isn't good enough at this resolution. This number can be increased. I probably wouldn't go much further down than this.
 
 <p class="blog-img center md">
-    [IMAGE(VLC-edit-vc.jpg)]
+    <img src="/images/blog/VLC-edit-vc.jpg" alt="">
     <div class="center">Video Codec</div>
 </p>
 
 On the Resolution tab, I'd like to keep the original video's size (although this is another parameter that could be tweaked if needed to compress the video further. Changing the video from 1080 to 720 would make the video file even smaller) So what I did was make sure the Scale is 1 (so that it doesn't scale), and for good measure I changed the Frame size to Auto. To do this, make it 0px (It doesn't allow you to type auto, but when you type 0 it will change to Auto)
 
 <p class="blog-img center md">
-    [IMAGE(VLC-edit-vc-res.jpg)]
+    <img src="/images/blog/VLC-edit-vc-res.jpg" alt="">
     <div class="center">Video Codec - Resolution</div>
 </p>
 
 I decided to Keep the Original Audio track, because I like to keep things at decent sound quality. So check the Keep Original Audio Track option.
 
 <p class="blog-img center md">
-    [IMAGE(VLC-edit-aud.jpg)]
+    <img src="/images/blog/VLC-edit-aud.jpg" alt="">
     <div class="center">Audio Editting</div>
 </p>
 
 After all the settings are correct, click the Save button
 
 <p class="blog-img center md">
-    [IMAGE(VLC-convert-dest-start.jpg)]
+    <img src="/images/blog/VLC-convert-dest-start.jpg" alt="">
     <div class="center">Click Start!</div>
 </p>
 
@@ -86,14 +86,14 @@ After all the settings are correct, click the Save button
 Now click Browse and choose a new file name for the compressed file and click Start to begin the compression process! The compression process takes you back to the normal VLC window, and you can watch the track bar go from 0 to the video time length. Once it reaches the end, the compression is compression. 
 
 <p class="blog-img center md">
-    [IMAGE(VLC-converting.jpg)]
+    <img src="/images/blog/VLC-converting.jpg" alt="">
     <div class="center">Converting</div>
 </p>
 
 **5 - Results**
 Here is the file size difference shaved off over 200MB! Here is a screen cap side by side of the video. Original on the Left, Compressed on the Right. 
 <p class="blog-img center md">
-    [IMAGE(VLC-SBS.jpg)]
+    <img src="/images/blog/VLC-SBS.jpg" alt="">
     <div class="center">Orig vs Compressed</div>
 </p>
 You can barely see a difference! That's all there is to it.

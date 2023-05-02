@@ -6,7 +6,7 @@ thumbnail: "/images/blog/2019-09-15-CS_GZip_Multiple_Files.jpg"
 slug: "c-gzip-multiple-files"
 ---
 <p class="blog-img float-left md">
-	[IMAGE(Compression.jpg)]
+	<img src="/images/blog/Compression.jpg" alt="">
 </p>
 An application I'm working on deals with loading in a group of files. I wanted to make it easier to import and export packages and so was looking at the compression options that C# has built in.
 

@@ -6,7 +6,7 @@ thumbnail: "/images/blog/2019-09-06-CS_Xml_Easy_Read_and_Write.jpg"
 slug: "c-xml-easy-read-and-write"
 ---
 <p class="blog-img center lg">
-    [IMAGE(XML.jpg)]
+    <img src="/images/blog/XML.jpg" alt="">
     <div class="center">Simple XML File</div>
 </p>
 C# has an extremely powerful XML processor built in. This makes it very easy to serialize and deserialize data in XML format. Visual Studio also has a neat tool for automatically creating the classes based on a schema or even just from the XML file, however I find it much easier to just quickly layout the framework by hand for my projects.
@@ -176,7 +176,7 @@ We create our StudentListFile class and the create a new List<Class>. If you are
 Then Write out the XML file... Read it back in and print it out to the console!
 
 <p class="blog-img center md">
-    [IMAGE(XmlConsole.jpg)]
+    <img src="/images/blog/XmlConsole.jpg" alt="">
 </P>
 
 And that is it! A very simple way to read and write XML files using C#.

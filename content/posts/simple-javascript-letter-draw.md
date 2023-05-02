@@ -6,7 +6,7 @@ thumbnail: "/images/blog/2019-09-02-Simple_JavaScript_Letter_Draw.jpg"
 slug: "simple-javascript-letter-draw"
 ---
 <p class="blog-img center md">
-    [IMAGE(LetterEtch.gif)]
+    <img src="/images/blog/LetterEtch.gif" alt="">
     <div class="center">Letter Draw</div>
 </p>
 

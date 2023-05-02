@@ -9,14 +9,14 @@ I was working on a project that introduced me to the wild world of image orienta
 An example could be a 1920px wide by 1080px high picture. A regular high definition image.
 
 <p class="blog-img center md">
-    [IMAGE(flower_landscape_scaled.jpg)]
+    <img src="/images/blog/flower_landscape_scaled.jpg" alt="">
     <div class="center">Image taken with phone horizontal</div>
 </p>
 
 Now when you have a picture that is in portrait mode, the picture is now 1080px wide by 1920px high.
 
 <p class="blog-img center md">
-    [IMAGE(flower_portrait_scaled.jpg)]
+    <img src="/images/blog/flower_portrait_scaled.jpg" alt="">
     <div class="center">Image taken with phone vertical</div>
 </p>
 
@@ -38,7 +38,7 @@ LibTiff defines these values:
     ORIENTATION_LEFTBOT = 8;
  
 <p class="blog-img center lg">
-    [IMAGE(flower_exif_orientation.jpg)]
+    <img src="/images/blog/flower_exif_orientation.jpg" alt="">
     <div class="center">What the Orientation value represents</div>
 </p>
 

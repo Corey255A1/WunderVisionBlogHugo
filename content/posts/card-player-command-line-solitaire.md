@@ -29,7 +29,7 @@ This intermediate step of creating a command line based version of solitaire is 
 Run SolitaireSimulator.py to play the command line version!
 
 <p class="blog-img center md">
-    [IMAGE(commandlinesolitaire.jpg)]
+    <img src="/images/blog/commandlinesolitaire.jpg" alt="">
     <div class="center">Command Line Solitaire</div>
 </p>
 
