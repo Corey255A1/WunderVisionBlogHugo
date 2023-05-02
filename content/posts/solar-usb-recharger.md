@@ -1,0 +1,8 @@
+---
+title: "Solar USB Recharger+"
+date: "2014-05-02"
+summary: "I will be taking a flight soon, so I was thinking about ways to recharge my phone on the go. I saw the solar panel and thought how cool t..."
+thumbnail: "/images/blog/2014-05-02-Solar_USB_Recharger.jpg"
+slug: "solar-usb-recharger"
+---
+I will be taking a flight soon, so I was thinking about ways to recharge my phone on the go. I saw the solar panel and thought how cool that would be. So here we are. The main recharger however is a Lithium Ion batter that is used to recharge the devices. When in the "OFF" position, the internal lithium ion battery is the continuously trickle charged by the solar panel. Not too many smarts in there just a diode to stop currently flow into the solar panel. Flipping the switch on, lights the LED and then sends power to the two USB ports which can be used to then charge devices. The current battery is a little small, but functional for a prototype. There are 3 stereo audio jacks where you can input audio and play it through the two built in speakers that are powered off the battery. Also the remaining two jacks can be used as outputs and creates a basic audio port splitter. This can be used without any power at all. There are two 2n2222 transistors used to power the left and right speakers. The power to the speakers have a seperate on/off switch. It is still in prototype phase. It probably won't move passed that haha. I put a 100uf capacitor at the USB power to help smooth out any ripples caused by the audio. All in all it works decent. Wish I had a better battery though.

@@ -1,0 +1,14 @@
+---
+title: "Wifi Android App Controlled Raspberry Pi Robot"
+date: "2015-01-18"
+summary: "In this video, I go from testing the motor driving capability of the Raspberry Pi to controlling it via WiFi using a custom Android App. ..."
+thumbnail: "/images/blog/2015-01-18-Wifi_Android_App_Controlled_Raspberry_Pi_Robot.jpg"
+slug: "wifi-android-app-controlled-raspberry-pi-robot"
+---
+In this video, I go from testing the motor driving capability of the Raspberry Pi to controlling it via WiFi using a custom Android App. The Raspberry Pi is set up as a wireless access point, allowing for direct connection. This cuts out the middle man of a router allowing it to be run any where. This is a good link for how to set it up. https://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/install-software I did find however, I had some issues with getting the connection to automatically start on boot, and it turned out that my network interface file needed a little bit of tweaking from the adafruit guide 
+
+address 10.1.1.1
+netmask 255.255.255.0
+network 10.1.1.0
+broadcast 10.1.1.255
+gateway 10.1.1.1 Once I had all of that it worked. So the raspberry would come up broadcasting the Wifi access point I called RPi-Net allowing for me to connect my laptop and also the cell phone. The Python script I would run used the same basic TCP port code I have been using for other projects but this time used to control the outputs of some motors. In the Phone Controlled Camera Tripod project I had used a scripting language available on the Android Market called FASL. That was great for prototyping and getting the Python server network listener working. This time I went all out and made an actual Android App. Allowing me to get used to the workings of the Android API and brushing off my Java skills. Some things to note from my experience. It turns out as of the Android 3.0 API Networking interactions must take place using a different thread so that it doesn't make the main view unresponsive. It will throw expections if you don't. So I created my own RoboSocket class handle that shenanigans. The Asychronous Task class was pretty straight forward which is what you have to extend to run things on a different thread. I am sure there are a hundred better ways to do it, but this way worked so it is a valid solution. Make sure you correctly set your permissions in the manifest file. In this case all I needed was the INTERNET permission. The code won't work otherwise. Laying things out on their GUI designer was kind of goofy in my opinion. Maybe it is just my inexperience with it but there wasn't any obvious way to get things to snap to any kind of grid. Everything was just place relative to each other. And also just the akwardness of Java after using C# more recently. I also did create a C# app that can control the robot using the arrow keys on the keyboard. So simple to do in C# #raspberrypi #wundervision #android #robotics

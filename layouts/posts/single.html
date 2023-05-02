@@ -1,5 +1,6 @@
 {{ define "main" }}
 <div class="content color3">
-    {{ .Content }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content | safeHTML }}
 </div>
 {{ end }}

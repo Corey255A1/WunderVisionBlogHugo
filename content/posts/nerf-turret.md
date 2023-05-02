@@ -1,0 +1,8 @@
+---
+title: "Nerf Turret"
+date: "2015-06-01"
+summary: "Remote controlled automatic Nerf Turret. Several things going on in the project. Currently the movement and shooting is controlled using ..."
+thumbnail: "/images/blog/2015-06-01-Nerf_Turret.jpg"
+slug: "nerf-turret"
+---
+Remote controlled automatic Nerf Turret. Several things going on in the project. Currently the movement and shooting is controlled using a Sega Controller. The system uses a 7.6V battery pack which is used directly to control the X and Y axis motors. I bought this Nerf gun thinking that it was fully automatic but that turned out to not be the case. There is a launching motor in the front that runs off of batteries to launch the darts. However the darts load and fire using the mechanical motion of the trigger. This presented a challenge. I was able to overcome the situation by using a servo to accuate the loading and the pushing the dart forward for firing. The launch motor is controlled by using an IRF510 mosfet. The two turret motors are controlled by a cheap motor controller off Amazon. The gears I used came out of an old piece of printing equipment. When the fire button is pressed, it takes some time (currently 2 seconds) to spin up the launching motor. The launch motor originally used 4.5V so using 7.6V actually gives it a little more power. Then the Servo press the dart forward into the spindle. The dart flies out. The servo then moves the opposite direction advancing the cylinder into the next position. It is then ready to fire the next dart.

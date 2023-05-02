@@ -3,7 +3,13 @@
   {{ range .Pages }}
   <li>
     <a class="card color3" href="{{ .Permalink }}">
-      <div><img class="thumbnail" src="/images/wundervisionbot_sd.png"></div>
+      <div>
+        {{ if eq .Params.thumbnail ""}}
+        <img class="thumbnail" src="/images/wundervisionbot_sd.png">
+        {{ else }}
+        <img class="thumbnail" src="{{ .Params.thumbnail }}">        
+        {{ end }}
+      </div>
       <div>
         <h3>{{ .Title }}</h3>
         {{ .Date.Format "2006-01-02" }}

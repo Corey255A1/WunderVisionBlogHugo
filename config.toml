@@ -18,3 +18,5 @@ title = 'WunderVision'
   url = '/projects/'
   weight = 30
 
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files

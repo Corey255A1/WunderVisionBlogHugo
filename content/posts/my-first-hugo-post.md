@@ -1,6 +1,8 @@
 ---
 title: "My First Hugo Post"
 date: 2023-04-22T07:30:55-04:00
+summary: Working on converting my blog to a static webpage using Hugo!
+thumbnail: /images/blog/2016-11-29-The_ESP8266.jpg
 draft: true
 ---
 
