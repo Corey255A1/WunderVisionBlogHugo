@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://salmon-mud-0b90ca30f.3.azurestaticapps.net'
 languageCode = 'en-us'
 title = 'WunderVision'
 [menu]
