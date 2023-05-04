@@ -16,7 +16,7 @@ The Hugo tutorial has you install a template. Which is a good starting point to 
 
 I haven't really found too much information yet about how to build your layout from the ground up, so its taking a bit of research.
 
-I managed to get the home page, footer and header set up fairly easily. This was just a matter of adding a index.html ( there seems to be a lot of options for the naming of things) and a partials directory with the header and footer.html to be used with in the index.html.
+I managed to get the home page, footer and header set up fairly easily. This was just a matter of adding a index.html (there seems to be a lot of options for the naming of things) and a partials directory with the header and footer.html to be used with in the index.html.
 [Insert code snips]
 
 Using the _default directory with the baseof.html makes it easy to share the same HTML template.
@@ -52,5 +52,38 @@ if this == that:
     print(this)
 ```
 Which is pretty cool!
+
 ## Deploying
 I have been on a kick using Azure. Azure has a Static Web App option that allows you to sync directly from GitHub. This project then is directly built and deployed to my website automatically!
+
+## Tagging
+Next up was figuring how to use the Taxonomies. One thing I had been doing in the past was adding hash tags to articles, but I never
+implemented anything to actually use them. Hugo seems to have a built in way to do display these Taxonomy pages.
+
+```toml
+title: "Saturday Morning Coding - Template Matching and Sign Detection"
+date: "2018-01-27"
+summary: "Using the basic Template Matching feature of OpenCV to detect road signs."
+thumbnail: "/images/blog/2018-01-27-Saturday_Morning_Coding_Template_Matching_and_Sign_Detection.jpg"
+slug: "saturday-morning-coding-template-matching-and-sign-detection"
+tags: ["python", "opencv", "computervision"]
+```
+
+I added in the **tags** line with some tags that describe the article. In order for these to display somewhere you have to add a taxonomoy template. Once again I'm not sure why there are so many alternate names and locations for these templates, but I'm choosing to make a taxonomy directory and putting a list.html in there. 
+
+```html
+{{ define "main"}}
+<ul>
+    {{ range .Data.Terms.Alphabetical }}
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+    {{ end }}
+</ul>
+{{ end }}
+```
+
+It didn't seem to auto build the tags, so be careful of that. I had to start and start the server for it to take effect.
+
+<p class="blog-img center md">
+    <img src="/images/blog/hugo-tags-1.png" alt="">
+    <div class="center">Basic Tag List</div>
+</p>
