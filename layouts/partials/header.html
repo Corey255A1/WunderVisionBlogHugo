@@ -2,10 +2,12 @@
 <header class="navbar menu color1">
     <h2><img src="/images/wundervisionbot_sd.png" class="icon">WunderVision</h2>
     {{$currentPage := .}}
-    {{- range site.Menus.main }}
-    <a href="{{ .URL }}" class="color3 btn {{if eq .URL $currentPage.RelPermalink}}active {{ end }}">
-        {{ .Name }}
-    </a>
-    {{- end }}
+    <div class="navoptions">
+        {{- range site.Menus.main }}
+        <a href="{{ .URL }}" class="color3 btn {{if eq .URL $currentPage.RelPermalink}}active {{ end }}">
+            {{ .Name }}
+        </a>
+        {{- end }}
+    </div>
 </header>
 {{ end }}
