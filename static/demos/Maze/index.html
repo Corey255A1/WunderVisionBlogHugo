@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WunderVision: 3D Maze</title>
+    <style>
+        html, body{
+            margin:0;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="mazeCanvas" style="width: 100%; height: 100%"></canvas>
+    <script src="./scripts/Maze3D.js"></script>
+    <script>
+        const maze3d = new Maze3D.Maze3DMain('mazeCanvas');
+    </script>
+</body>
+</html>

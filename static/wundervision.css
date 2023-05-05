@@ -45,11 +45,15 @@ h3 {
 
 .content {
     margin: 0.5rem auto;
-    width: 90vw;
+    width: 80vw;
     padding: 16px;
+
+    word-wrap: break-word;
+}
+
+.content.card{
     border-radius: 16px;
     box-shadow: 1px 1px 4px black;
-    word-wrap: break-word;
 }
 
 .homepage {
@@ -85,7 +89,7 @@ a:hover {
 }
 
 
-a.card {
+.card {
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -296,7 +300,7 @@ ul.list-group>li {
         align-items: center;
     }
 
-    a.card {
+    .card {
         display: flex;
         flex-direction: column;
         text-decoration: none;

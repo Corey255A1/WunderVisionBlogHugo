@@ -1,0 +1,26 @@
+{{ define "main" }}
+    <div class="content">
+      <h2 style="text-align: center; text-transform: uppercase;">{{ .Title }}</h2>
+      <ul class="list-group">
+        {{ range .Pages }}
+        <li class="card color3">
+            <div>
+              {{ if eq .Params.thumbnail ""}}
+              <img class="thumbnail" src="/images/wundervisionbot_sd.png">
+              {{ else }}
+              <img class="thumbnail" src="{{ .Params.thumbnail }}">        
+              {{ end }}
+            </div>
+            <div>
+              <h3>{{ .Title }}</h3>
+              <div>
+                {{ .Summary }}
+              </div>
+              <a class="btn color2" href="{{ .Params.demo_link }}">Demo</a>
+              <a class="btn color2" href="{{ .Params.github_link }}">GitHub</a>
+            </div>
+        </li>
+        {{ end }}
+        </ul>
+    </div>
+{{ end }}

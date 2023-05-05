@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ $tags := (.GetTerms "tags")}}
+<div class="content color3">
+    <h1>{{ .Title }}</h1>
+    {{ if $tags }}
+        <ul class="tagcluster">
+            {{ range  $tags}}
+                <li style="float:left;"><a href="{{ replace .Permalink "#" "%23"}}">#{{ .LinkTitle }}</a></li>
+            {{ end }}
+        </ul>
+        <br>
+    {{ end }}
+    {{ .Content | safeHTML }}
+</div>
+{{ end }}
