@@ -64,3 +64,9 @@ Getting the lists of tags is great! The next piece those was actually rendering 
 
 Turns out that to render the list of pages associated with a tag, is the same as rendering all the posts. Rather than duplicate the post list code between the Term.html and the List.html for posts, I just turned it into a partial, and basically shared that between the two. There might be even more clever ways to do it, but for now this works great.
 
+Another got'ya that I ran into was for the tags which include special characters. Specifically # as in C#. I didn't find a super clean way to globally fix the issue, however when generating the links you can swap out the # with %23 which makes it work.
+
+```html
+<a href="{{ replace .Permalink "#" "%23"}}">#{{ .LinkTitle }}</a>
+```
+

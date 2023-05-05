@@ -4,7 +4,7 @@ date: "2019-06-24"
 summary: "For better or worse I started working on a UWP (Universal Windows P..."
 thumbnail: "/images/blog/2019-06-24-UWP_vs_Net_Framework_File_Access.jpg"
 slug: "uwp-vs-net-framework-file-access"
-tags: ["CSharp",".NET"]
+tags: ["C#",".NET"]
 ---
 <p class="blog-img center md">
     <img src="/images/blog/FileSystem.png" alt="">

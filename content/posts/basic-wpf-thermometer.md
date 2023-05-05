@@ -4,7 +4,7 @@ date: "2019-08-25"
 summary: "Create a basic thermometer control using WPF xaml and C#"
 thumbnail: "/images/blog/2019-08-25-Basic_WPF_Thermometer.jpg"
 slug: "basic-wpf-thermometer"
-tags: ["WPF", "CSharp"]
+tags: ["WPF", "C#"]
 ---
 <p class="blog-img center md">
     <img src="/images/blog/Thermometer.gif" alt="">

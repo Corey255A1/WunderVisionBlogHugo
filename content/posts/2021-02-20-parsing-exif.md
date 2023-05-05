@@ -4,7 +4,7 @@ date: "2021-02-20"
 summary: "After discovering some interesting image rotation issues, I decided to dig a little deeper into the EXIF image header information."
 thumbnail: "/images/blog/2021-02-20-Parsing-Exif.jpg"
 slug: "2021-02-20-parsing-exif-image-data"
-tags: ["C++","CSharp"]
+tags: ["C++","C#"]
 ---
 I was working on a project that introduced me to the wild world of image orientation. It is an interesting thing that no one really thinks about how it happens, it just works like magic.
 An example could be a 1920px wide by 1080px high picture. A regular high definition image.

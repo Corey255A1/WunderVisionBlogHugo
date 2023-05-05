@@ -4,7 +4,7 @@ date: "2022-09-10"
 summary: "I wanted to access a list of dance music for an dance music playlist site so I had to learn about setting up a database."
 thumbnail: "/images/blog/2022-09-10-Azure_SQL_Server.jpg"
 slug: "2022-09-10-Azure_SQL_Server"
-tags: ["CSharp","Azure","Database","SQL"]
+tags: ["C#","Azure","Database","SQL"]
 ---
 For one of the many many side projects I am working on, I wanted to implement a database for a list of music associated with their dance style (Waltz, Tango, etc). This was the perfect opportunity to learn about creating an Azure database and connecting to it in various ways.
 I don’t like writing direct step by step how to’s because they are typically obsolete before they are published. I like to provide the progress and any pitfalls I found along the way.

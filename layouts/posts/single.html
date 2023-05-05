@@ -5,7 +5,7 @@
     {{ if $tags }}
         <ul class="tagcluster">
             {{ range  $tags}}
-                <li style="float:left;"><a href="{{ .Permalink }}">#{{ .LinkTitle }}</a></li>
+                <li style="float:left;"><a href="{{ replace .Permalink "#" "%23"}}">#{{ .LinkTitle }}</a></li>
             {{ end }}
         </ul>
         <br>

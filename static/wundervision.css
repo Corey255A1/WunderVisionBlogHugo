@@ -10,9 +10,11 @@ body {
     grid-template-rows: auto 1fr auto;
     font-size: 12pt;
 }
+
 h1 {
-    margin:0.4rem 0;
+    margin: 0.4rem 0;
 }
+
 h2 {
     margin: 0.4rem 0;
 }
@@ -63,10 +65,11 @@ img.large {
     box-shadow: 1px 1px 2px black;
     width: 300px;
 }
-.overlay{
+
+.overlay {
     text-shadow: 1px 1px 2px black;
     box-shadow: 1px 1px 2px black;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 2rem;
     border-radius: 8px;
 }
@@ -195,39 +198,45 @@ a.btn:active {
     margin: 0 auto;
 }
 
-.highlight > pre{
+.highlight>pre {
     padding: 4px;
     overflow-x: auto;
 }
 
 
 
-.tagnav{
+.tagnav {
     display: flex;
     flex-direction: row;
     width: 80%;
     margin: 0 auto;
 }
-.tagnav-sidebar{
+
+.tagnav-sidebar {
     min-width: 15rem;
     padding: 1rem;
 }
-.tagnav-sidebar>ul{
+
+.tagnav-sidebar>ul {
     list-style: none;
     padding: 0;
 }
-.tagnav-list{
+
+.tagnav-list {
     width: 100%;
 }
-ul.tagcluster{
+
+ul.tagcluster {
     margin: 0 auto;
     list-style: none;
     padding: 0;
 }
-ul.tagcluster>li{
+
+ul.tagcluster>li {
     float: left;
     margin-right: 4px;
 }
+
 ul.list-group {
     list-style: none;
     display: flex;
@@ -236,25 +245,49 @@ ul.list-group {
     width: 100%;
     padding: 0px;
 }
-ul.list-group > li {
+
+ul.list-group>li {
     width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-    .content{
+    .content {
         width: 95vw;
     }
-    .tagnav{
+
+    .navbar.menu{
+        padding: 0;
+    }
+    .navoptions{
+        margin: 0.4rem 0;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .navoptions>a{
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .tagnav {
         width: 100%;
 
     }
-    ul.list-group{
-        margin: 1.5rem 0px;
+
+    ul.list-group {
+        margin: 0px;
         max-width: unset;
         width: 100%;
     }
 
-    .homepage>img {
+    .homepage{
+        padding: 0;
+    }
+    .homepage>.overlay{
+        padding: 0.5rem;
+        height: 100%;
+    }
+
+    .homepage>.overlay>img {
         width: 50%;
     }
 
@@ -273,11 +306,11 @@ ul.list-group > li {
         box-shadow: 2px 2px 4px black;
         border: 2px solid #f2ecff;
     }
-    
+
 }
 
 @media only screen and (max-width: 900px) {
-    .tagnav{
+    .tagnav {
         flex-direction: column-reverse;
     }
 

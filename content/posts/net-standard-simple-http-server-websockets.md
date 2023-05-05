@@ -4,7 +4,7 @@ date: "2019-03-09"
 summary: "Adding basic Websocket capability to our simple HTTP Server.."
 thumbnail: "/images/blog/2019-03-09-NET_Standard_Simple_HTTP_Server_Websockets.jpg"
 slug: "net-standard-simple-http-server-websockets"
-tags: ["CSharp","Sockets"]
+tags: ["C#","Sockets"]
 ---
 Source:  
 [https://github.com/Corey255A1/BareBonesHttpServer](https://github.com/Corey255A1/BareBonesHttpServer) 

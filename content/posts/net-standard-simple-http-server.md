@@ -4,7 +4,7 @@ date: "2019-03-09"
 summary: "Like the title suggests, we are going to build a simple HTTP Server"
 thumbnail: "/images/blog/2019-03-09-NET_Standard_Simple_HTTP_Server.jpg"
 slug: "net-standard-simple-http-server"
-tags: ["CSharp","Sockets"]
+tags: ["C#","Sockets"]
 ---
 Like the title suggests, we are going to build a simple HTTP Server.  
 [https://github.com/Corey255A1/BareBonesHttpServer](https://github.com/Corey255A1/BareBonesHttpServer)  
