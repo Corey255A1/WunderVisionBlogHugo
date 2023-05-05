@@ -1,13 +1,13 @@
 ---
 title: "Hugo Blog Tags"
 date: 2023-05-04T21:06:48-04:00
-draft: true
 thumbnail: /images/blog/HugoH.jpg
 tags: ["Hugo", "WebDev"]
+summary: "Next up was figuring how to use the Taxonomies. One thing I had been doing in the past was adding hash tags to articles, but I never implemented anything to actually use them. Hugo has a built in way to do display these Taxonomy pages!"
 ---
 ## Tagging
 Next up was figuring how to use the Taxonomies. One thing I had been doing in the past was adding hash tags to articles, but I never
-implemented anything to actually use them. Hugo seems to have a built in way to do display these Taxonomy pages.
+implemented anything to actually use them. Hugo has a built in way to do display these Taxonomy pages!
 
 ```toml
 title: "Saturday Morning Coding - Template Matching and Sign Detection"
@@ -70,3 +70,4 @@ Another got'ya that I ran into was for the tags which include special characters
 <a href="{{ replace .Permalink "#" "%23"}}">#{{ .LinkTitle }}</a>
 ```
 
+With that I was rolling with tags and taxonomoy!

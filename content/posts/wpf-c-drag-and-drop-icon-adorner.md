@@ -117,6 +117,5 @@ When the Dragging is happening there is another even that gets fired and that is
 You should now see an adornment following the mouse during the drag operation!
 
 Other WPF Projects
-
-- [WPF Compass Control](https://www.wundervisionenvisionthefuture.com/post/simple-wpf-compass-control)
-- [WPF Thermometer Control](https://www.wundervisionenvisionthefuture.com/post/basic-wpf-thermometer)
+- [WPF Compass Control]({{< ref "/posts/simple-wpf-compass-control" >}} "WPF Compass")
+- [WPF Thermometer Control]({{< ref "/posts/basic-wpf-thermometer" >}} "WPF Thermometer")

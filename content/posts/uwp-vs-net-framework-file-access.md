@@ -7,8 +7,8 @@ slug: "uwp-vs-net-framework-file-access"
 tags: ["C#",".NET"]
 ---
 <p class="blog-img center md">
-    <img src="/images/blog/FileSystem.png" alt="">
-    <div class="center">Simple XML File</div>
+    <img src="/images/blog/FileSystem.png" alt="File System">
+    <div class="center"> A File System</div>
 </p>
 
 Source: [https://github.com/Corey255A1/.NetStandardFileSystemInterface](https://github.com/Corey255A1/.NetStandardFileSystemInterface)

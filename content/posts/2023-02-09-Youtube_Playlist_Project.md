@@ -46,7 +46,7 @@ The interface shall indicate:
 - The currently playing item in the playlist
 
 <p class="blog-img center lg">
-    <img src="@CDNURL/images/blog/figma_playlist_mock.png">
+    <img src="/images/blog/figma_playlist_mock.png">
     <div class="center">My quick design in Figma</div>
 </p>
 

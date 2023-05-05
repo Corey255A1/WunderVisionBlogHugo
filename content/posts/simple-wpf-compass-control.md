@@ -6,9 +6,10 @@ thumbnail: "/images/blog/2019-08-24-Simple_WPF_Compass_Control.jpg"
 slug: "simple-wpf-compass-control"
 tags: ["C#","WPF"]
 ---
+
 <p class="blog-img center md">
-    <img src="/images/blog/WPFCompass.jpg" alt="">
-    <div class="center">Simple XML File</div>
+    <img src="/images/blog/Compass.gif" alt="">
+    <div class="center">Compass!</div>
 </p>
 
 The source for this project is here: [https://github.com/Corey255A1/MiscWPFControls/tree/master/MiscWPFControls/Controls/Compass](https://github.com/Corey255A1/MiscWPFControls/tree/master/MiscWPFControls/Controls/Compass)
@@ -284,8 +285,8 @@ Here you can see I just add the Compass control to the window. In the code behin
 You can also see that you can set the StarColor and the NeedleLength directly from the XAML here. However, in order to bind those values to something, you would have to change them from Properties to DependencyProperties.
 
 <p class="blog-img center md">
-    <img src="/images/blog/Compass.gif" alt="">
-    <div class="center">Simple XML File</div>
+    <img src="/images/blog/WPFCompass.jpg" alt="">
+    <div class="center">Result!</div>
 </p>
 
 

@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $tags := (.GetTerms "tags")}}
-<div class="content color3">
+<div class="content border color3">
     <h1>{{ .Title }}</h1>
     {{ if $tags }}
         <ul class="tagcluster">

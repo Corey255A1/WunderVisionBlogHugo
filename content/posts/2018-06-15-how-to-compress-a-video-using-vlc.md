@@ -14,20 +14,20 @@ Download the latest version of VLC from here: https://www.videolan.org/vlc/
 **1 - Select Video For Compression**
 Launch VLC and select Convert/Save... from the Media file menu bar.
 <p class="blog-img center md">
-    <img src="/images/blog/VLC-convert.jpg" alt="">
+    <img src="/images/blog/VLC-convert.jpg" alt="VLC Convert">
     <div class="center">Conversion Option</div>
 </p>
 This will launch the Open Media window. Click the Add button and chose the file for compression.
 
 <p class="blog-img center md">
-    <img src="/images/blog/VLC-add.jpg" alt="">
+    <img src="/images/blog/VLC-add.jpg" alt="VLC Add">
     <div class="center">Add your files</div>
 </p>
 
 Select the file from the list box, and click the Convert/Save button.
 
 <p class="blog-img center md">
-    <img src="/images/blog/VLC-convert.jpg" alt="">
+    <img src="/images/blog/VLC-convert.jpg" alt="VLC Convert">
     <div class="center">Begin Conversion Setup</div>
 </p>
 
@@ -35,13 +35,13 @@ Select the file from the list box, and click the Convert/Save button.
 The Convert window will appear. Now from the Profile Selection combo box, I selected the Video for Youtube HD setting. This had a good base to work with.
 
 <p class="blog-img center md">
-    <img src="/images/blog/VLC-Profile.jpg" alt="">
+    <img src="/images/blog/VLC-Profile.jpg" alt="VLC Profile">
     <div class="center">Choose Profile</div>
 </p>
 
 Click on the crescent wrench button (Edit) to edit the settings for the profile.
 <p class="blog-img center md">
-    <img src="/images/blog/VLC-Profile-edit.jpg" alt="">
+    <img src="/images/blog/VLC-Profile-edit.jpg" alt="VLC Profile Edit">
     <div class="center">Edit</div>
 </p>
 
@@ -50,28 +50,28 @@ I only changed a couple settings. This was to make sure that the video met the 5
 These are the default Encapsulation settings. These do not need modified.
 
 <p class="blog-img center md">
-    <img src="/images/blog/VLC-edit.jpg" alt="">
+    <img src="/images/blog/VLC-edit.jpg" alt="VLC Profile Encapsulation">
     <div class="center">Encapsulation</div>
 </p>
 
 On the Video Codec tab, the first sub tab (Encoding Parameters) I modified the Bitrate to 1500kb/s. This should be enough to maintain the quality for low action, not super detailed videos. If the quality isn't good enough at this resolution. This number can be increased. I probably wouldn't go much further down than this.
 
 <p class="blog-img center md">
-    <img src="/images/blog/VLC-edit-vc.jpg" alt="">
+    <img src="/images/blog/VLC-edit-vc.jpg" alt="VLC Codec">
     <div class="center">Video Codec</div>
 </p>
 
 On the Resolution tab, I'd like to keep the original video's size (although this is another parameter that could be tweaked if needed to compress the video further. Changing the video from 1080 to 720 would make the video file even smaller) So what I did was make sure the Scale is 1 (so that it doesn't scale), and for good measure I changed the Frame size to Auto. To do this, make it 0px (It doesn't allow you to type auto, but when you type 0 it will change to Auto)
 
 <p class="blog-img center md">
-    <img src="/images/blog/VLC-edit-vc-res.jpg" alt="">
+    <img src="/images/blog/VLC-edit-vc-res.jpg" alt="VLC Resolution">
     <div class="center">Video Codec - Resolution</div>
 </p>
 
 I decided to Keep the Original Audio track, because I like to keep things at decent sound quality. So check the Keep Original Audio Track option.
 
 <p class="blog-img center md">
-    <img src="/images/blog/VLC-edit-aud.jpg" alt="">
+    <img src="/images/blog/VLC-edit-aud.jpg" alt="VLC Audio">
     <div class="center">Audio Editting</div>
 </p>
 
