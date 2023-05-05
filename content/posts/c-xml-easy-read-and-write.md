@@ -4,6 +4,7 @@ date: "2019-09-06"
 summary: "Use C# to easily read and write XML files."
 thumbnail: "/images/blog/2019-09-06-CS_Xml_Easy_Read_and_Write.jpg"
 slug: "c-xml-easy-read-and-write"
+tags: ["CSharp"]
 ---
 <p class="blog-img center lg">
     <img src="/images/blog/XML.jpg" alt="">

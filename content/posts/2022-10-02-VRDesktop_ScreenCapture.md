@@ -4,6 +4,7 @@ date: "2022-10-02"
 summary: "Capturing, Compressing and Comparing regions."
 thumbnail: "/images/blog/2022-10-02-VRDesktop_ScreenCapture.jpg"
 slug: "2022-10-02-VRDesktop_ScreenCapture"
+tags: ["C++","Win32"]
 ---
 
 I wanted to be able to view my desktop but be surrounded by a 360 view of cool places outside. To do this, I had to capture the desktop, transmit those images to my phone, and then render those images in virtual reality. I don't currently have a VR headset, but I have one of those phone based headsets. The next couple of blog posts will be talking about the different pieces of the project.

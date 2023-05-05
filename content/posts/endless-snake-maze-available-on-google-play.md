@@ -4,6 +4,7 @@ date: "2017-05-05"
 summary: "My android game Endless Snake Maze! Combines the idea of Snake but in a maze .. that never ends."
 thumbnail: "/images/blog/2017-05-05-Endless_Snake_Maze_Available_on_Google_Play.jpg"
 slug: "endless-snake-maze-available-on-google-play"
+tags: ["Android"]
 ---
 I've been working on a Android Game.
 

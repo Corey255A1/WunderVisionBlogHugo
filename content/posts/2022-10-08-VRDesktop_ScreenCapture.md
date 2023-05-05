@@ -4,6 +4,7 @@ date: "2022-10-08"
 summary: "After capturing the screen and passing those images to NodeJS, the next step is to send the updates to the client and render them on the virtual screen."
 thumbnail: "/images/blog/2022-10-08-VRDesktop_ScreenCapture_Client.jpg"
 slug: "2022-10-08-VRDesktop_ScreenCapture_Client"
+tags: ["Javascript","BabylonJS"]
 ---
 
 After capturing the screen and passing those images to NodeJS, the next step is to send the updates to the client and render them on the virtual screen.

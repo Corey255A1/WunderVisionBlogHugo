@@ -4,6 +4,7 @@ date: "2018-04-22"
 summary: "Looking at the various ways to iterate in C++"
 thumbnail: "/images/blog/2018-04-22-C_Vector_Iteration.jpg"
 slug: "c-vector-iteration"
+tags: ["C++"]
 ---
 At work one day a few coworkers and I were discussing the various ways to iterate through a vector in C++. I thought that it was interesting enough to warrant a blog post about it :)
 

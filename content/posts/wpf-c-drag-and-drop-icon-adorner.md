@@ -4,6 +4,7 @@ date: "2018-09-15"
 summary: "Quick demonstration and explanation of Drag and Drop Icons (Adorners) in WPF"
 thumbnail: "/images/blog/2018-09-15-WPF_CSharp_Drag_and_Drop_Icon_(Adorner).jpg"
 slug: "wpf-c-drag-and-drop-icon-adorner"
+tags: ["WPF","CSharp"]
 ---
 At work I was implementing a control that had drag and drop capability and I wanted to add a preview of the object as it dragged along. This turned into a frustrating dig through overly complicated examples and not so great documentation in MSDN. I didn't want to have to write a whole bunch of extraneous code that I believed couldn't have been necessary to implement a bare-minimum drag and drop preview. 
 

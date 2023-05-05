@@ -4,6 +4,7 @@ date: "2018-07-04"
 summary: "Part 3: Solitaire Player Series. Creating a Solitaire environment."
 thumbnail: "/images/blog/2018-07-04-Card_Player_Command_Line_Solitaire.jpg"
 slug: "card-player-command-line-solitaire"
+tags: ["Python","MachineLearning"]
 ---
 This is Phase 3 of the Card Player series I have been blogging about. I am attempting to make a Solitaire playing bot. 
 

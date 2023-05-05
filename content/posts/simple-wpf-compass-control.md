@@ -4,6 +4,7 @@ date: "2019-08-24"
 summary: "Create a simple WPF Compass Control"
 thumbnail: "/images/blog/2019-08-24-Simple_WPF_Compass_Control.jpg"
 slug: "simple-wpf-compass-control"
+tags: ["CSharp","WPF"]
 ---
 <p class="blog-img center md">
     <img src="/images/blog/WPFCompass.jpg" alt="">

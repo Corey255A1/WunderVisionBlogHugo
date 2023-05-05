@@ -4,6 +4,7 @@ date: "2018-07-04"
 summary: "Part 4: Solitaire Player Series. Card Image detection using OpenCV."
 thumbnail: "/images/blog/2018-07-04-Card_Player_Detecting_Cards.jpg"
 slug: "card-player-detecting-cards"
+tags: ["MachineLearning","ComputerVision","Python"]
 ---
 **Phase 4** of my Card Player series. I am attempting to create a solitaire playing bot in python. 
 

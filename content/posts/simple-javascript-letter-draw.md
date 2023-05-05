@@ -4,6 +4,7 @@ date: "2019-09-02"
 summary: "JavaScript code that creates a cool letter etching animation"
 thumbnail: "/images/blog/2019-09-02-Simple_JavaScript_Letter_Draw.jpg"
 slug: "simple-javascript-letter-draw"
+tags: ["Javascript"]
 ---
 <p class="blog-img center md">
     <img src="/images/blog/LetterEtch.gif" alt="">

@@ -4,6 +4,7 @@ date: "2018-06-24"
 summary: "Part 2: Solitaire Player Series. Training the neural net."
 thumbnail: "/images/blog/2018-06-24-Card_Player_Keras_Training.jpg"
 slug: "card-player-keras-training"
+tags: ["MachineLearning","Python"]
 ---
 In the previous post I talked about gathering data and data augmentation. This post will cover some of the things I encountered while setting up and training the neural network.
 

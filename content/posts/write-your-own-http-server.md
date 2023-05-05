@@ -4,6 +4,7 @@ date: "2019-03-09"
 summary: "Writing a barebones http server from scratch in C#"
 thumbnail: "/images/blog/2019-03-09-Write_your_own_HTTP_Server.jpg"
 slug: "write-your-own-http-server"
+tags: ["CSharp", "Sockets"]
 ---
 I have an idea for an application that may one day be all moved to the web. However, my day to day job, and therefore the most of my professional experience, is in desktop applications. Rather than dive in to web hosting, site security, certificate authorities, databases, and all of the nonsense that typically goes with web servers and web apps, I'm playing to my strengths and developing my idea as a desktop app, with elements of web.
 

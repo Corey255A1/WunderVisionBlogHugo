@@ -1,0 +1,36 @@
+<div class="tagnav">
+  <div class="tagnav-sidebar">
+    <h3>Tags</h3>
+    <hr>
+    <ul>
+      {{ range .Site.Taxonomies.tags }}
+              <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="tagnav-list">
+    <h2 style="text-align: center; text-transform: uppercase;">{{ .Title }}</h2>
+    <ul class="list-group">
+      {{ range .Pages }}
+      <li>
+        <a class="card color3" href="{{ .Permalink }}">
+          <div>
+            {{ if eq .Params.thumbnail ""}}
+            <img class="thumbnail" src="/images/wundervisionbot_sd.png">
+            {{ else }}
+            <img class="thumbnail" src="{{ .Params.thumbnail }}">        
+            {{ end }}
+          </div>
+          <div>
+            <h3>{{ .Title }}</h3>
+            {{ .Date.Format "2006-01-02" }}
+            <div>
+              {{ .Summary }}
+            </div>
+          </div>
+        </a>
+      </li>
+      {{ end }}
+      </ul>
+  </div>
+</div>

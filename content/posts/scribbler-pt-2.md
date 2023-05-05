@@ -4,6 +4,7 @@ date: "2014-11-23"
 summary: "This time around, I went for manual control. I used two 5K Potentiometers to control the x and y axis servos. I used a button on the Ardu..."
 thumbnail: "/images/blog/2014-11-23-Scribbler_Pt2.jpg"
 slug: "scribbler-pt-2"
+tags: ["Arduino"]
 ---
 This time around, I went for manual control. I used two 5K Potentiometers to control the x and y axis servos. I used a button on the Arduino Proto shield to toggle the Pen up and down state. So my pinouts for the Arduino includes, 3 PWM pins for the servo, 1 digital input and 2 analog inputs. The analog inputs were reading the voltage from the voltage divider circuit of the potentiometers. So I found the range of analog input values initially and used the built in Arduino map() function which scales a number within one range to another. map(y,MIN_INY,MAX_INY,MIN_Y,MAX_Y) It makes it easy to read in code.  Also, my functions initially check and make sure that the analog input values are with in my predefined range.. it might not be necessary because of the map function but I wasn't sure, so better safe than sorry. As you can see in the code below, I also do a simple debounce on the digital input for the push button. I did this before I even tried it from experience in the past and knowledge I gained in class about debouncers. #include <Servo.h>
 

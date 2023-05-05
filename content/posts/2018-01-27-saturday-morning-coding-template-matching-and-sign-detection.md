@@ -4,7 +4,7 @@ date: "2018-01-27"
 summary: "Using the basic Template Matching feature of OpenCV to detect road signs."
 thumbnail: "/images/blog/2018-01-27-Saturday_Morning_Coding_Template_Matching_and_Sign_Detection.jpg"
 slug: "saturday-morning-coding-template-matching-and-sign-detection"
-tags: ["python", "opencv", "computervision"]
+tags: ["Python", "ComputerVision"]
 ---
 **Edit 2/9/2019:** 
 Turns out I didn't leave a link to the github repo for this. So here it is!

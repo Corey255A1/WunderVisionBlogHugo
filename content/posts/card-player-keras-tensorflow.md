@@ -4,6 +4,7 @@ date: "2018-06-23"
 summary: "Part 1: Creating a Keras/Tensor Flow Solitaire player. Prepare the Dataset!"
 thumbnail: "/images/blog/2018-06-23-Card_Player_KerasTensorFlow.jpg"
 slug: "card-player-keras-tensorflow"
+tags: ["MachineLearning","ComputerVision","Python"]
 ---
 This we be split over several different blog posts because my end goal is to use machine learning to play solitaire. 
 

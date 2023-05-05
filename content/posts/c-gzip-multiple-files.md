@@ -4,6 +4,7 @@ date: "2019-09-15"
 summary: "Using C# quickly Compress and Decompress multiple files  without the use of 3rd party libraries!"
 thumbnail: "/images/blog/2019-09-15-CS_GZip_Multiple_Files.jpg"
 slug: "c-gzip-multiple-files"
+tags: ["CSharp"]
 ---
 <p class="blog-img float-left md">
 	<img src="/images/blog/Compression.jpg" alt="">

@@ -4,6 +4,7 @@ date: "2015-01-18"
 summary: "In this video, I go from testing the motor driving capability of the Raspberry Pi to controlling it via WiFi using a custom Android App. ..."
 thumbnail: "/images/blog/2015-01-18-Wifi_Android_App_Controlled_Raspberry_Pi_Robot.jpg"
 slug: "wifi-android-app-controlled-raspberry-pi-robot"
+tags: ["RaspberryPi","Android","Robotics"]
 ---
 In this video, I go from testing the motor driving capability of the Raspberry Pi to controlling it via WiFi using a custom Android App. The Raspberry Pi is set up as a wireless access point, allowing for direct connection. This cuts out the middle man of a router allowing it to be run any where. This is a good link for how to set it up. https://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/install-software I did find however, I had some issues with getting the connection to automatically start on boot, and it turned out that my network interface file needed a little bit of tweaking from the adafruit guide 
 

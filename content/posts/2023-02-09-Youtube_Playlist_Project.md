@@ -5,6 +5,7 @@ summary: "I am implenting the same app in several languages and frameworks (Desk
 to learn new things and explore what is possible."
 thumbnail: "/images/blog/2023-02-09-Youtube_Playlist_Project.jpg"
 slug: "2023-02-09-Youtube_Playlist_Project"
+tags: ["SoftwareDesign","React","WPF","CSharp","Typescript","Javascript"]
 ---
 ### Introduction
 I have worked with WPF for several years. Most of my career thus far has been based around developing desktop applications with MFC and WPF. I have mostly been learning web development on my own.
