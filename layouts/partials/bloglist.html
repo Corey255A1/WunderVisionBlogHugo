@@ -4,7 +4,7 @@
     <hr>
     <ul>
       {{ range .Site.Taxonomies.tags }}
-              <li><a href="{{ replace .Page.Permalink "#" "%23"}}">{{ .Page.Title }} ({{ .Count }})</a></li>
+      <li><a href="{{ replace .Page.Permalink " #" "%23" }}">{{ .Page.Title }} ({{ .Count }})</a></li>
       {{ end }}
     </ul>
   </div>
@@ -18,7 +18,11 @@
             {{ if eq .Params.thumbnail ""}}
             <img class="thumbnail" src="/images/wundervisionbot_sd.png">
             {{ else }}
-            <img class="thumbnail" src="{{ .Params.thumbnail }}">        
+              {{if eq .Params.bundle true}}
+                <img class="thumbnail" src="{{ .Permalink }}{{ .Params.thumbnail }}">
+              {{ else }}
+                <img class="thumbnail" src="{{ .Params.thumbnail }}">
+              {{ end }}
             {{ end }}
           </div>
           <div>
@@ -31,6 +35,6 @@
         </a>
       </li>
       {{ end }}
-      </ul>
+    </ul>
   </div>
 </div>
