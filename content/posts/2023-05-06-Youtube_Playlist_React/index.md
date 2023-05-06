@@ -6,7 +6,6 @@ bundle: true
 thumbnail: "yt_thumb.png"
 slug: "2023-05-06-Youtube_Playlist_React"
 tags: ["React","Typescript","Javascript", "WebDev"]
-draft: true
 ---
 
 ## Introduction
