@@ -1,0 +1,20 @@
+<a class="card color3" href="{{ .Permalink }}">
+    <div>
+        {{ if eq .Params.thumbnail ""}}
+        <img class="thumbnail" src="/images/wundervisionbot_sd.png">
+        {{ else }}
+        {{if eq .Params.bundle true}}
+        <img class="thumbnail" src="{{ .Permalink }}{{ .Params.thumbnail }}">
+        {{ else }}
+        <img class="thumbnail" src="{{ .Params.thumbnail }}">
+        {{ end }}
+        {{ end }}
+    </div>
+    <div>
+        <h3>{{ .Title }}</h3>
+        {{ .Date.Format "2006-01-02" }}
+        <div>
+            {{ .Summary }}
+        </div>
+    </div>
+</a>

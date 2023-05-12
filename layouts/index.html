@@ -4,7 +4,20 @@
         <h1>WunderVision</h1>
         <img class="large" src="/images/wundervisionbot_sd.png" alt="WunderVision Bot Logo">
         <p>Here you will find Blog Posts about various software engineering topics and Personal Projects that I've developed far enough along to demo.</p>
-        
+        <h3>Recent Posts</h3>
+        <ul class="list-group thin">
+            {{ range (( last 3 ( where .Site.RegularPages "Type" "posts" ).ByDate ).Reverse) }}
+            <li>
+                <a class="thin-card" href="{{ .Permalink }}">
+                    <div><h3>{{ .Date.Format "2006-01-02" }} - {{ .Title }}</h3></div>
+                    <div>
+                        {{ .Summary }}
+                    </div>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
     </div>
 </div>
+
 {{ end }}

@@ -86,8 +86,9 @@ Which allows me to do this:
 
 This all works great when the iframe is initialized with a URL. I tried a bunch of different things trying to not initialize the iframe with a url, when I discovered that just using the embedded url without an ID, works exactly how I wanted,
 
-    src="http://www.youtube.com/embed?enablejsapi=1&mute=1" 
-
+```html
+src="http://www.youtube.com/embed?enablejsapi=1&mute=1" 
+```
  
 ## Connecting up the player
 Now the next task.. Getting the title of the loaded video and updating the title of the Now Playing title 

@@ -250,9 +250,29 @@ ul.list-group {
     width: 100%;
     padding: 0px;
 }
+ul.list-group.thin{
+    max-width: 600px;
+    margin: 0 auto;
+}
 
 ul.list-group>li {
     width: 100%;
+}
+
+.thin-card{
+    border-radius: 8px;
+    background-color: #656565;
+    text-decoration: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.thin-card:hover{
+    background-color: #4e4e4e;
+    transition: 0.1s background-color linear;
 }
 
 @media only screen and (max-width: 600px) {

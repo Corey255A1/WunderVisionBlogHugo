@@ -3,7 +3,7 @@ title: "Hugo Blog Tags"
 date: 2023-05-04T21:06:48-04:00
 thumbnail: /images/blog/HugoH.jpg
 tags: ["Hugo", "WebDev"]
-summary: "Next up was figuring how to use the Taxonomies. One thing I had been doing in the past was adding hash tags to articles, but I never implemented anything to actually use them. Hugo has a built in way to do display these Taxonomy pages!"
+summary: "Figuring out how to add tags to the blog post pages and group by them."
 ---
 ## Tagging
 Next up was figuring how to use the Taxonomies. One thing I had been doing in the past was adding hash tags to articles, but I never
