@@ -4,7 +4,7 @@
     <hr>
     <ul>
       {{ range .Site.Taxonomies.tags }}
-      <li><a href="{{ replace .Page.Permalink " #" "%23" }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+      <li><a href="{{ replace .Page.Permalink "#" "%23" }}">{{ .Page.Title }} ({{ .Count }})</a></li>
       {{ end }}
     </ul>
   </div>

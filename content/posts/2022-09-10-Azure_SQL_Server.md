@@ -168,10 +168,8 @@ I refactored that code a bit to encapsulate the connection code
 </pre></div>
 
 
-
 Using this basic connection I was able to implement the end point to test the SQL query and send back a JSON response of my data!
 However it was clunky, and not really ideal since it requires sending SQL strings that have to be handled correctly.
-
 
 
 ### Entity Framework Core 
@@ -224,13 +222,16 @@ The DBContext makes it simple to get data from the database using the LINQ synta
 During initial testing, I was using the SqlConnectionBuilder to build the connection string required to connect to the database. This included hardcoding the username and password which is not acceptable.
 To make it safe and deployable to the Azure app service, there is a programmatic way to access the connection string from the environment. Again throughout the documentation there are multiple ways of storing and getting connection strings. There are several different files and locations, and classes for accessing.
 
-
-    dotnet user-secrets init  
-    dotnet user-secrets set ConnectionStrings:[Name] “Value”
+```bash
+dotnet user-secrets init  
+dotnet user-secrets set ConnectionStrings:[Name] “Value”
+```
 
 If you are on linux and you happen to have special characters in your connection string, use single quotes instead of double quotes.
 
-    dotnet user-secrets set ConnectionStrings:[Name] ‘Value’
+```bash
+dotnet user-secrets set ConnectionStrings:[Name] ‘Value’
+```
 
 Took me some googling to finally figure that out. Using escape characters with the double quotes make it store, however the \ remains in the string. Single quotes works without the need of escape characters
 

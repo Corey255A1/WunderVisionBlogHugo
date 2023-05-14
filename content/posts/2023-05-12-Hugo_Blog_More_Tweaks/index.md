@@ -15,25 +15,25 @@ There are a few hugo functions that are key: **first**, **last**, **where**.
 ### Where
 To get the list of only *Posts* I had to figure out how to filter the .Site.Pages list by only only the post type. The problem was that initialy for some reason the Posts list page also show up in that category.
 
-```
+```go
 where .Site.Pages "Type" "posts"
 ```
 
 Turns out there is an additional list that is .RegularPages
 
-```
+```go
 where .Site.RegularPages "Type" "posts"
 ```
 
 ### First and Last
 First and Last return N number of items from the first or last of the list. In this case I also sorted the List ByDate
-```
+```go
 last 10 ( where .Site.RegularPages "Type" "posts" ).ByDate
 ```
 
 I think wanted the list in order from recent to least recent.
 
-```
+```go
 (( last 10 ( where .Site.RegularPages "Type" "posts" ).ByDate ).Reverse)
 ```
 
@@ -73,8 +73,8 @@ turns in to:
 
 ```html
 <p class="blog-img center md">
-    <img src="recent_post_list.png" alt="Recent List"  title="List of posts on home page">
-    <div class="center">List of posts on home page</div>
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}"{{ end }}>
+    <br><span class="center">{{ .Title }}</span>
 </p>
 ```
 
