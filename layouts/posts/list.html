@@ -1,3 +1,23 @@
 {{ define "main" }}
-{{ partial "bloglist.html" .}}
+<div class="tagnav">
+    <div class="tagnav-sidebar">
+      <h3>Tags</h3>
+      <hr>
+      <ul>
+        {{ range .Site.Taxonomies.tags }}
+        <li><a href="{{ replace .Page.Permalink "#" "%23" }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="tagnav-list">
+      <h2 style="text-align: center; text-transform: uppercase;">{{ .Title }}</h2>
+      {{ template "_internal/pagination.html" . }}
+      <ul class="list-group">
+        {{ range .Paginator.Pages }}
+            {{ partial "postpreview.html" .}}
+        {{ end }}
+      </ul>
+      {{ template "_internal/pagination.html" . }}
+    </div>
+  </div>
 {{ end }}

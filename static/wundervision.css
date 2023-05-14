@@ -275,6 +275,28 @@ ul.list-group>li {
     transition: 0.1s background-color linear;
 }
 
+.pagination{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.page-item>a{
+    margin: 0 0.2rem;
+    display: block;
+    width: 2rem;
+    text-align: center;
+    padding: 0.4rem;
+    background-color: #363636;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.page-item.active>a{
+    background-color: #7d0000;
+}
+
 @media only screen and (max-width: 600px) {
     .content {
         width: 95vw;
