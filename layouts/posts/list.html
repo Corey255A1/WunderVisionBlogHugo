@@ -4,8 +4,9 @@
       <h3>Tags</h3>
       <hr>
       <ul>
+        {{ $currentPage := . }}
         {{ range .Site.Taxonomies.tags }}
-        <li><a href="{{ replace .Page.Permalink "#" "%23" }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+        <li class="tagnav-item {{if eq .Page.RelPermalink $currentPage.RelPermalink}}active {{ end }}"><a href="{{ replace .Page.Permalink "#" "%23" }}">{{ .Page.Title }} ({{ .Count }})</a></li>
         {{ end }}
       </ul>
     </div>

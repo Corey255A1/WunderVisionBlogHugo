@@ -96,9 +96,22 @@ The output of the pagination template
         <a href="/posts/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
     </li>
 ```
+## Tag List
+
+I stylized the tag list a little better by adding a pointer hover effect and also a highlighting of the active tag page.
+Highlighting the active page is just a matter of adding a css class tag if the link of the taxonomy page matches our current page.
+
+```html
+<ul>
+    {{ $currentPage := . }}
+    {{ range .Site.Taxonomies.tags }}
+    <li class="tagnav-item {{if eq .Page.RelPermalink $currentPage.RelPermalink}}active {{ end }}"><a href="{{ replace .Page.Permalink "#" "%23" }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+    {{ end }}
+</ul>
+```
 
 
-## Bonus
+## Customize the Markdown Image tag
 
 In addition to this list, I also was able to get the markdown image tags to render in a custom way.
 

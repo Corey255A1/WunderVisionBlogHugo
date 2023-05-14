@@ -1,7 +1,7 @@
 {{ define "header" }}
 <header class="navbar menu color1">
     <h2><img src="/images/wundervisionbot_sd.png" class="icon">WunderVision</h2>
-    {{$currentPage := .}}
+    {{ $currentPage := . }}
     <div class="navoptions">
         {{- range site.Menus.main }}
         <a href="{{ .URL }}" class="color3 btn {{if eq .URL $currentPage.RelPermalink}}active {{ end }}">
