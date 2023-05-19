@@ -254,6 +254,7 @@ a.btn:active {
 }
 
 ul.tagcluster {
+    display: inline-block;
     margin: 0 auto;
     list-style: none;
     padding: 0;
@@ -261,7 +262,11 @@ ul.tagcluster {
 
 ul.tagcluster>li {
     float: left;
+    color: white;
     margin-right: 4px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: #4e4e4e;
 }
 
 ul.list-group {

@@ -6,7 +6,6 @@ thumbnail: "/images/blog/2018-01-27-Saturday_Morning_Coding_Template_Matching_an
 slug: "saturday-morning-coding-template-matching-and-sign-detection"
 tags: ["Python", "ComputerVision"]
 ---
-
 ## Introduction
 
 - [Source Code](https://github.com/Corey255A1/BasicPythonOpenCVTemplateMatch/tree/master/SignDetector)

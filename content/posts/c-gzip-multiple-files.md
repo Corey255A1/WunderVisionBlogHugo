@@ -6,6 +6,7 @@ thumbnail: "/images/blog/2019-09-15-CS_GZip_Multiple_Files.jpg"
 slug: "c-gzip-multiple-files"
 tags: ["C#"]
 ---
+- [Source](https://github.com/Corey255A1/WunderVisionMiscCode/blob/master/GZipMulti/GZipMultiLib/GZipFiles.cs)
 <p class="blog-img float-left md">
 	<img src="/images/blog/Compression.jpg" alt="">
 </p>
@@ -13,7 +14,6 @@ An application I'm working on deals with loading in a group of files. I wanted t
 
 The **System.IO.Compression** namespace includes the **GZipStream** class that can be used to compress files and memory. The examples on MSDN show the straight forward way of compressing a single file, however in my case I wanted to do several files. Not wanting to use any 3rd party libraries, I came up with my own way of doing this.
 
-[https://github.com/Corey255A1/WunderVisionMiscCode/blob/master/GZipMulti/GZipMultiLib/GZipFiles.cs](https://github.com/Corey255A1/WunderVisionMiscCode/blob/master/GZipMulti/GZipMultiLib/GZipFiles.cs)
 
 GZipStream compresses a MemoryStream. The trick is to create a memory stream that contains the files to compress, and write it out in a single block. However the issue then becomes, how do you know what the files are and how big are they?
 

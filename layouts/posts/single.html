@@ -4,12 +4,11 @@
     <h1>{{ .Title }}</h1>
     {{ if $tags }}
         <ul class="tagcluster">
-            <li style="float:left">Tags:</li>
             {{ range  $tags}}
                 <li style="float:left;"><a href="{{ replace .Permalink "#" "%23"}}">{{ .LinkTitle }}</a></li>
             {{ end }}
         </ul>
-        <br>
+    </br>
     {{ end }}
     {{ .Content | safeHTML }}
 </div>

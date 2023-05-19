@@ -5,7 +5,6 @@ summary: Working on converting my blog to a static webpage using Hugo!
 thumbnail: /images/blog/HugoH.jpg
 tags: ["Hugo", "WebDev"]
 ---
-
 ## Introduction
 I have been messing around with using different server side technologies such as Flask and ASP.Net. But, as I started to think about it, having these server side rendering applications is a bit over kill for blog posts that I rarely update. I knew things existed to generate static webpages from templates, and for now I'm going to dig into **Hugo**.
 

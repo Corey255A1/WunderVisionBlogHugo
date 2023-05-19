@@ -7,7 +7,7 @@ thumbnail: "/images/blog/2023-02-09-Youtube_Playlist_Project.jpg"
 slug: "2023-02-09-Youtube_Playlist_Project"
 tags: ["SoftwareDesign","React","WPF","C#","Typescript","Javascript"]
 ---
-### Introduction
+## Introduction
 I have worked with WPF for several years. Most of my career thus far has been based around developing desktop applications with MFC and WPF. I have mostly been learning web development on my own.
 
 I started a Udemy course on React and he has of course sample projects that he walks through. I've also read tutorials and things that implement To-Do lists.
@@ -16,7 +16,7 @@ A To-Do list covers a lot of ground. Adding, Deleting, Editting, Shuffling.
 
 I however wanted to just dive in and make something I haven't seen with similar but slightly more advanced concepts. A **Youtube Playlist Player**
 
-### Requirements
+## Requirements
 
 The first thing to think about is, what are my applications requirements? What should the user be able to do?
 
@@ -31,7 +31,7 @@ The user shall be able to:
 - Move back to the previous playlist item
 - Enable and Disable Autoplay for the playlist
 
-### Visual Design
+## Visual Design
 Once I have some ideas for the app should do, I'm going to create a mockup of what that might look like. I'm not a graphics designer or a UX expert, but I like to think that I come up with GUIs that at least make sense to a user.  
 
 I have been messing around with using Figma. I like that its straight forward and no nonsense to get things placed in an organized gridded fashion. You can group things together and basically get the component hierarchy just by building out your interface. 
@@ -50,7 +50,7 @@ The interface shall indicate:
     <div class="center">My quick design in Figma</div>
 </p>
 
-### Software Design
+## Software Design
 Some parts of the software design will be reliant upon the architecture chosen. Desktop vs Web. C# vs C++. React vs Angular. And so on.
 
 Overall, however, the concepts are similar.
@@ -107,7 +107,7 @@ PlaylistPlayer
 - playlist:Playlist 
 - currentPlaylistItem:PlaylistItem
 
-### Starting the Projects
+## Starting the Projects
 Once I had the ideas of how it would work written out and thought about, I was ready to dig in with the code.
 
 So far I have written the app in two frameworks: React and WPF. There will be more to come for sure!

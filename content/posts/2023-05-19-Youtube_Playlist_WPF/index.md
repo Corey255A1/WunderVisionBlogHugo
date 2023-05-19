@@ -6,7 +6,6 @@ bundle: true
 thumbnail: "yt_wpf_thumb.jpg"
 tags: ["C#","WPF"]
 ---
-
 ## Introduction
 
 - [Source Code](https://github.com/Corey255A1/YoutubePlaylist-WPF)
