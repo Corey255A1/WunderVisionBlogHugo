@@ -12,7 +12,7 @@ tags: ["C#","WPF"]
 - [Source Code](https://github.com/Corey255A1/YoutubePlaylist-WPF)
 
 One of the challenges of this project is going to be interacting with the WebView2. 
-A big pattern idea of WPF is the separation of the Data and the View. This means minimizing the "code behind" that manually changes the actual elements of the interface. Databinding allows the GUI to handle changes to the data mostly automatically. Getting the binding to work just right is sometimes tricky. 
+A big pattern idea of WPF is the separation of the Data and the View. This means minimizing the "code behind" that manually changes the actual elements of the interface. Data binding allows the GUI to handle changes to the data mostly automatically. Getting the binding to work just right is sometimes tricky. 
 I'm going to have class that handles the storage of the playlist, and the currently playing items.
 
 <div class="embed-youtube">
@@ -21,7 +21,7 @@ I'm going to have class that handles the storage of the playlist, and the curren
 
 ## Laying the ground work
 In my typical fashion, I try to do things differently the next go around... for better or worse. I constantly seek the "best" way of doing something. In the software world though that is a constantly moving target. 
-This go around I was exploring how to get the datacontext of my views set up without adding it to the code behind
+This go around I was exploring how to get the data context of my views set up without adding it to the code behind
 
 ```xml 
 <Window.Resources> 
@@ -164,7 +164,7 @@ public class YoutubeAPIStatus
 ```
 
 Things are starting to come together, however the challenge now, is how to interface with the webview from our PlaylistController. 
-What I wound up doing was creating a dependency property on the Player contoller for a ICommand, and then bound to that command from the controller class.
+What I wound up doing was creating a dependency property on the Player controller for a ICommand, and then bound to that command from the controller class.
 
 ```C# 
 public ICommand PlayerStatusCommand { get; set; } 
@@ -223,7 +223,7 @@ And then this can be bound to by the controller
 ```
 This is working out nicely. The Player has no idea about the PlaylistController. 
 The last thing to do is the auto play check box that I forgot. 
-Sizing the checkbox part of the check box, seems like the easiest thing to do is add a ScaleTransfrom and increase the scale. The only thing is that if you were going to use the label part of the checkbox that also increases. What I did was just add a manual label next to the checkbox.
+Sizing the checkbox part of the check box, seems like the easiest thing to do is add a ScaleTransform and increase the scale. The only thing is that if you were going to use the label part of the checkbox that also increases. What I did was just add a manual label next to the checkbox.
 
 ```xml
 <StackPanel Grid.Row="4" HorizontalAlignment="Center" Orientation="Horizontal" Margin="4"> 

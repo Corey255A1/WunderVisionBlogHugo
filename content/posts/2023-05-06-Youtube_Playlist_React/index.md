@@ -9,9 +9,13 @@ tags: ["React","Typescript","Javascript", "WebDev"]
 ---
 
 ## Introduction
+- [Live Demo](/demos/react-youtube-playlist)
+- [Source Code](https://github.com/Corey255A1/YoutubePlaylist-React)
+
 When I started this, I had not built anything from the ground up using React. I have been reading a lot of tutorials on it. I am also currently going through a Udemy course on it. I like to just dig in and see what I can figure out on my own.
-I find that learning how to formulate the right questions about a topic helps me learn things faster. 
- 
+I find that learning how to formulate the right questions about a topic helps me learn things faster.
+
+
 React is all about creating components. Looking at our design mock up, we can kind of see what our components should be. This idea should really be applied to all UI design in my opinion, not just React. 
  
 As I'm building this, I'm thinking there has to be a better way to bubble up our custom events from nested components. I started by initially passing down several layers of callbacks in the props. This doesn't seem very efficient or robust, but this is good enough to continue progress. The base PlayListItem calls some callbacks which are listened to by the Playlist Component.. Which calls some callbacks up into the App which manages the array of items. 

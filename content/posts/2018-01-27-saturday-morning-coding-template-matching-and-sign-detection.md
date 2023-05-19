@@ -6,10 +6,10 @@ thumbnail: "/images/blog/2018-01-27-Saturday_Morning_Coding_Template_Matching_an
 slug: "saturday-morning-coding-template-matching-and-sign-detection"
 tags: ["Python", "ComputerVision"]
 ---
-**Edit 2/9/2019:** 
-Turns out I didn't leave a link to the github repo for this. So here it is!
 
-[https://github.com/Corey255A1/BasicPythonOpenCVTemplateMatch/tree/master/SignDetector](https://github.com/Corey255A1/BasicPythonOpenCVTemplateMatch/tree/master/SignDetector)
+## Introduction
+
+- [Source Code](https://github.com/Corey255A1/BasicPythonOpenCVTemplateMatch/tree/master/SignDetector)
 
 One of the most recent projects I have been working on is making a off the shelf RC car with the price limit set to $30 into an Autonomous vehicle. That is what sent me off in the direction of machine learning and also computer vision. Eventually the plan is to have a car use neural networks trained to steer the car around a course marked out with edge lines. But I'm not there yet. For now, I wanted to get the car at least moving by itself using visual processing, so today I decided to use a computer vision technique called template matching.
 
