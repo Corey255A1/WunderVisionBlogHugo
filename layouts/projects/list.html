@@ -14,7 +14,7 @@
             <div>
               <h3>{{ .Title }}</h3>
               <div>
-                {{ .Summary }}
+                {{ .Content | safeHTML }}
               </div>
               <a class="btn color2" href="{{ .Params.demo_link }}">Demo</a>
               <a class="btn color2" href="{{ .Params.github_link }}">GitHub</a>
