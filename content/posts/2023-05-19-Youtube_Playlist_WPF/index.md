@@ -39,6 +39,7 @@ xmlns:wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebVi
 
 <wpf:WebView2 Grid.Row="2"></wpf:WebView2>
 ```
+![Basic Layout](yt_wpf_basicwebview.png "Basic Layout")
 
 One thing that I've always found kind of surprising about WPF styling is how something that seemingly should be simple, turns into a whole bunch of code and research. For example, the ListView control. I wanted to just use a ListView for its easy of displaying list content. What I don't want is the mouse over highlighting and the item selection of it. To remove those from the ListView requires unstyling several different pieces of it. 
 However, what I realized was that the better control to use is just the plain **ItemsControl**. It allows you to bind to the ItemsSource and provide the same ItemTemplate.
@@ -93,6 +94,7 @@ With the WebView I started with the basics.
 What I tried to do next was call the NavigateToString method to navigate to a hardcoded webpage. 
 I thought that calling that in the Loaded callback of the control would be good enough, but it was not.
 
+![Invalid Operation](yt_wpf_exception.png "Invalid Operation")
 **System.InvalidOperationException: 'Attempted to use WebView2 functionality which requires its CoreWebView2 prior to the CoreWebView2 being initialized.  Call EnsureCoreWebView2Async or set the Source property first.**
 
 ```C#
@@ -108,8 +110,10 @@ private async void PlayerLoaded(object sender, System.Windows.RoutedEventArgs e)
 } 
 ```
 
-Next I need to get the YoutubeIFrame to show up 
-Alright!! I have the basic Play and Pause functionality going. 
+I have the basic Play and Pause functionality going with the YouTube IFrame. 
+
+![Viewing YouTube](yt_wpf_iframe.png "Viewing YouTube")
+
 Executing code with in the WebView is extremely easy with:
 
 ```C# 
@@ -261,6 +265,9 @@ I have  ran in to this problem before.. When you try to add a drop shadow to a b
     </Setter.Value> 
 </Setter>
 ```
+
+![Too Much Shadow](yt_wpf_playlist_dropshadow.png "Too Much Shadow")
+
 To get around this, I added a second border that is behind the main button content, which a shadow
 
 ```xml
@@ -283,7 +290,10 @@ To get around this, I added a second border that is behind the main button conte
 ```
 
 I'm not going to crazy with the theming, so I put the resources in the App.xaml. This way I can reuse the styles in both controls easily. 
-This is starting to look nice! 
+This is starting to look nice!
+
+![Not too bad!](yt_wpf_playlist_start_styling.png "Not too bad!")
+
 I wanted to add some icons to these buttons. The first one I started was the Play button. 
 WPF allows you to create rectangle and polygons easily. 
 However I tried the naïve approach to add the triangle to the button
@@ -299,6 +309,8 @@ However I tried the naïve approach to add the triangle to the button
     </Setter> 
 </Style>
 ```
+
+![One Arrow](yt_wpf_playlist_styling.png "One Arrow")
 
 This confusingly resulted in only one of the buttons have an icon at a time. What I didn't realize was that setting the content this way in the style, results in only one polygon being created and the passed around between the buttons. 
 Instead of setting the content, you have to set it in the Template 
@@ -346,5 +358,7 @@ To get that back in a basic way, you can use Style triggers.
     </Trigger> 
 </Style.Triggers>
 ```
+
+![Not too bad!](yt_wpf_complete.jpg "Not too bad!")
 
 Now we have a basic, presentable looking Youtube Playlist App, using WPF! 

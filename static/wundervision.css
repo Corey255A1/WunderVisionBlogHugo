@@ -44,8 +44,9 @@ h3 {
 }
 
 .content {
-    margin: 0 auto;
+    margin: 0.5rem auto;
     width: 70vw;
+    min-width: 600px;
     padding: 0px 16px;
 
     word-wrap: break-word;
@@ -321,8 +322,13 @@ ul.list-group>li {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .embed-youtube{
+        width: 320px;
+    }
     .content {
         width: 95vw;
+        min-width: unset;
     }
 
     .navbar.menu {
