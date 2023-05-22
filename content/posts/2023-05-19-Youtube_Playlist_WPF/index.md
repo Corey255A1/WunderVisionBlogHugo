@@ -358,6 +358,6 @@ To get that back in a basic way, you can use Style triggers.
 </Style.Triggers>
 ```
 
-![Not too bad!](yt_wpf_complete.jpg "Not too bad!")
+![Final Result](yt_wpf_complete.jpg "Final Result")
 
 Now we have a basic, presentable looking Youtube Playlist App, using WPF! 
