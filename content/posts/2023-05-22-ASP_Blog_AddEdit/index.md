@@ -5,6 +5,7 @@ summary: "Part 3) Adding and Editing posts using a frontend rather than manual S
 bundle: true
 thumbnail: "razor_thumb.png"
 tags: ["C#","ASP.NET","WebDev"]
+draft: true
 ---
 ## Introduction
 - [Source](https://github.com/Corey255A1/WunderVision-Blog-ASP.Net)
