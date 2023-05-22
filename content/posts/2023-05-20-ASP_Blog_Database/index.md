@@ -186,6 +186,6 @@ builder.Services.AddDbContext<BlogDBContext>(options=>{
 
 ![Sensitive Data Logging](sql_debugging.png "Sensitive Data Logging")
 
-After I had the connection working with in the test code block, it was time to move on to [adding in a Razor page to display the data.](/posts/2023-05-21-asp_blog_razor)
+After I had the connection working with in the test code block, it was time to move on to [adding in a Razor page to display the data.](/posts/2023-05-21-asp_blog_razor/)
 
 

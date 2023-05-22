@@ -9,7 +9,7 @@ tags: ["C#","ASP.NET","WebDev"]
 ## Introduction
 - [Source](https://github.com/Corey255A1/WunderVision-Blog-ASP.Net)
 
-In the [Previous Post](/posts/2023-05-20-asp_blog_database) I connected up the database and used test code to verify the connection and that my tables were correct.
+In the [Previous Post](/posts/2023-05-20-asp_blog_database/) I connected up the database and used test code to verify the connection and that my tables were correct.
 Now that I have that all squared away it was time to render it using **Razor Pages**.
 
 To render the markdown for the blog posts I installed the **Markdig** Nuget package.
