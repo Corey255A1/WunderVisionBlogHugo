@@ -111,4 +111,4 @@ If you noticed in the Razor syntax for the single post view, that I was using th
 
 ![Post Markdown](razor_markdown.png "Post Markdown")
 
-I started to get the hang of using Razor pages and displaying content. The next blog post (Still in progress) will be adding in Add and Edit pages
+I started to get the hang of using Razor pages and displaying content. The [next blog post](/posts/2023-05-22-asp_blog_addedit/) will be adding in Add and Edit pages

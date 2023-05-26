@@ -8,13 +8,16 @@ slug: "2023-02-09-Youtube_Playlist_Project"
 tags: ["SoftwareDesign","React","WPF","C#","Typescript","Javascript"]
 ---
 ## Introduction
+- [Youtube Playlist React](/posts/2023-05-06-youtube_playlist_react/)
+- [Youtube Playlist WPF](/posts/2023-05-19-youtube_playlist_wpf/)
+
 I have worked with WPF for several years. Most of my career thus far has been based around developing desktop applications with MFC and WPF. I have mostly been learning web development on my own.
 
 I started a Udemy course on React and he has of course sample projects that he walks through. I've also read tutorials and things that implement To-Do lists.
 
-A To-Do list covers a lot of ground. Adding, Deleting, Editting, Shuffling.
+A To-Do list covers a lot of ground. Adding, Deleting, Editing, Shuffling.
 
-I however wanted to just dive in and make something I haven't seen with similar but slightly more advanced concepts. A **Youtube Playlist Player**
+I, however, wanted to just dive in and make something I haven't seen with similar but slightly more advanced concepts. A **Youtube Playlist Player**.
 
 ## Requirements
 
@@ -38,7 +41,7 @@ I have been messing around with using Figma. I like that its straight forward an
 
 Along with the basic user action requirements, some thought has to be put into how the current state of the application is presented to the user. 
 
-An important part about developing an interface is to get feedback from other people as often as possible. What you might think is important may not be to someone else. You don't want to spend a bunch of time on a feature that no one will ever really use, even if it is really cool. You also want to get people using what you have to get feedback on what works and what doesn't. If people keep accidently clicking the remove button instead of the shift up and down button, you might consider rearranging those buttons to prevent that from happening. 
+An important part about developing an interface is to get feedback from other people as often as possible. What you might think is important may not be to someone else. You don't want to spend a bunch of time on a feature that no one will ever really use, even if it is really cool. You also want to get people using what you have to get feedback on what works and what doesn't. If people keep accidentally clicking the remove button instead of the shift up and down button, you might consider rearranging those buttons to prevent that from happening. 
 
 The interface shall indicate:
 

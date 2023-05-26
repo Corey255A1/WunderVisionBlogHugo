@@ -9,6 +9,7 @@ tags: ["C#","WPF"]
 ## Introduction
 
 - [Source Code](https://github.com/Corey255A1/YoutubePlaylist-WPF)
+- [Youtube Playlist Project Post](/posts/2023-02-09-youtube_playlist_project/)
 
 One of the challenges of this project is going to be interacting with the WebView2. 
 A big pattern idea of WPF is the separation of the Data and the View. This means minimizing the "code behind" that manually changes the actual elements of the interface. Data binding allows the GUI to handle changes to the data mostly automatically. Getting the binding to work just right is sometimes tricky. 

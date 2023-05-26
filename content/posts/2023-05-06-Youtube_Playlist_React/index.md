@@ -11,6 +11,7 @@ tags: ["React","Typescript","Javascript", "WebDev"]
 
 - [Live Demo](/demos/react-youtube-playlist)
 - [Source Code](https://github.com/Corey255A1/YoutubePlaylist-React)
+- [Youtube Playlist Project Post](/posts/2023-02-09-youtube_playlist_project/)
 
 When I started this, I had not built anything from the ground up using React. I have been reading a lot of tutorials on it. I am also currently going through a Udemy course on it. I like to just dig in and see what I can figure out on my own.
 I find that learning how to formulate the right questions about a topic helps me learn things faster.
