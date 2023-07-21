@@ -177,11 +177,18 @@ a.btn {
     display: block;
     margin: 0.25rem;
     width: 6rem;
+    height: 2.25rem;
     text-decoration: none;
     border-radius: 8px;
     padding: 0.5rem;
     box-shadow: 1px 1px 3px black;
     text-align: center;
+}
+
+a.btn.square {
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0.2rem;
 }
 
 a.btn.active {
