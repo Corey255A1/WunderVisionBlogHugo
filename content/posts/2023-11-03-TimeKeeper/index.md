@@ -32,7 +32,8 @@ I made some not-the-best code structure choices that I had to work around, but I
 # Major Code Spruces
 
 ## Property Binding
-One of the confusing things about WPF when you are first starting is the idea of property binding. It is hard to wrap your mind around your class properties getting magically updated from the controls directly. At the time, I still didn't understand it, and I just used the GUI elements directly to get values like numbers out of a text box.
+One of the confusing things about WPF when you are first starting is the idea of property binding. It is hard to wrap your mind around your class properties getting magically updated from the controls directly. At the time in 2018, I still didn't understand it, and I just used the GUI elements directly to get values like numbers out of a text box.
+During the 2023 refactor, I used Bindings and the INotifyPropertyChanged to decouple the View from the Model. In some places, I also used Dependency Properties.
 ***
 **2018 - TimeEdit.xaml.cs**
 ```C#
@@ -80,7 +81,8 @@ Using binding and some other rework, makes things a lot more flexible
 
 
 ## Using Styles
-I hardcoded all the styles through out the project. Which makes it more difficult to make things look consistent. I also reworked everything to be laid out in a grid. In 2018 I just dragged and used margins to position the elements. Using a grid makes it much easier to position things around uniformly.
+In 2018, I just styled all the elements directly. That made it difficult to make things look consistent and is hard to change. Also I just dragged and used margins to position the elements.
+During the 2023 refactor, I created styles that can be applied to the elements and I used grids to position the elements. Using a grid makes it much easier to position things around uniformly and change things later on.
 ***
 **2018 - TimerElement.xaml**
 ```xml
@@ -95,7 +97,7 @@ I hardcoded all the styles through out the project. Which makes it more difficul
 ```
 
 ## Separation of Concerns
-Because I didn't have an understanding of binding, or the concept of Model and View, I had a lot of business logic in the MainWindow.xaml.cs and other code behind areas. During the refactoring I split out as much as I could easily into a TimeCardController.cs.
+In 2018, because I didn't have an understanding of binding, or the concept of Model and View, I had a lot of business logic in the MainWindow.xaml.cs and other code behind areas. During the 2023 refactoring I split out as much as I could easily into a TimeCardController.cs.
 ***
 **2018 - MainWindow.xaml.cs**
 ```C#
@@ -180,6 +182,7 @@ if (File.Exists(file))
     }
 ```
 ***
+In 2023, I made sure everything was using more descriptive names and consistent casing.
 **2023 - TimeCard.cs - WriteCSV()**
 ```C#
 DateTime currentTime = DateTime.Now;
@@ -226,7 +229,7 @@ foreach (string code in chargeCodeTimerDict.Keys)
 
 
 ## Folder Structure
-I didn't really organize the code in anyway. Everything was just in the main project folder.
+In 2018, I didn't really organize the code in anyway. Everything was just in the main project folder.
 
 ![2018 - Folder Structure](Timekeeper2018_folders.jpg "2018 Folder Structure")
 
