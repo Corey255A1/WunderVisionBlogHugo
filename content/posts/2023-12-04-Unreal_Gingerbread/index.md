@@ -3,11 +3,11 @@ title: "Unreal Gingerbread Man"
 date: "2023-12-04"
 summary: "A basic 3rd person game using Unreal and some assets created in Blender"
 bundle: true
-thumbnail: "TimeKeeper_thumb.jpg"
+thumbnail: "gingerbread_thumb.jpg"
 tags: ["Unreal","Blender","3DGraphics"]
 ---
 # Introduction
-There is a Gingerbread Man code jam being hosted by the Orlando Unreal community. I liked the idea of it so I decided to use that as something to work towards and put what I've learned for far into action.  
+There is a Gingerbread Man code jam being hosted by the Orlando Unreal community. I liked the idea of it so I decided to use that as something to work towards and put what I've learned so far into action.  
 I like trying to do everything from the ground up, but I don't have the time and patientance to create nice looking assets, but I'm going to try it anyway!
 
 # Creating the Gingerbread Man
