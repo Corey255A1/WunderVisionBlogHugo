@@ -1,12 +1,13 @@
 ---
-title: "Unreal Gingerbread Man"
+title: "Unreal Gingerbread Man - Blender Assets"
 date: "2023-12-04"
-summary: "A basic 3rd person game using Unreal and some assets created in Blender"
+summary: "Creating some assets in Blender for a Gingerbread Man Game"
 bundle: true
 thumbnail: "gingerbread_thumb.jpg"
 tags: ["Unreal","Blender","3DGraphics"]
 ---
 # Introduction
+[Git Source](https://github.com/Corey255A1/Unreal-GingerbreadMan/)  
 There is a Gingerbread Man code jam being hosted by the Orlando Unreal community. I liked the idea of it so I decided to use that as something to work towards and put what I've learned so far into action.  
 I like trying to do everything from the ground up, but I don't have the time and patientance to create nice looking assets, but I'm going to try it anyway!
 
@@ -23,7 +24,7 @@ To bevel the edges, I selected one entire side, and used the Select Boundary Loo
 ![Extrudeman](extrudeman.png)
 
 ## Adding Features
-To build the simple gingerbread man features, I subdivided a couple areas of the chest and then extruded his buttons. With the face I just extruded some of the already existing subdivides. I then beveled raised pieces to give them a more low res candy shape.
+To build the simple gingerbread man features, I subdivided a couple areas of the chest and then extruded his buttons. With the face I just extruded some of the already existing subdivides. I then beveled the raised pieces to give them a more low res candy shape.
 
 ![Featureman](featureman.png)
 
