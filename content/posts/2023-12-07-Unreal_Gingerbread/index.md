@@ -36,5 +36,6 @@ I changed the Skeletal Mesh and the Anim Class to our new Gingerbread man versio
 
 And with that we have a basic animation tied to our player movement!
 The next thing to do is add some other game play elements.
+
 ![Gingerbread Walking](gingerbread_walking_sm.gif)
 
