@@ -7,7 +7,8 @@ thumbnail: "gingerbread_thumb.jpg"
 tags: ["Unreal","Blender","3DGraphics"]
 ---
 # Introduction
-[Git Source](https://github.com/Corey255A1/Unreal-GingerbreadMan/)  
+- [Source](https://github.com/Corey255A1/Unreal-GingerbreadMan/)  
+
 There is a Gingerbread Man code jam being hosted by the Orlando Unreal community. I liked the idea of it so I decided to use that as something to work towards and put what I've learned so far into action.  
 I like trying to do everything from the ground up, but I don't have the time and patientance to create nice looking assets, but I'm going to try it anyway!
 
