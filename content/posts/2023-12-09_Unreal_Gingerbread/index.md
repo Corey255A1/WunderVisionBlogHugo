@@ -1,6 +1,6 @@
 ---
 title: "Unreal Gingerbread Man - Level"
-date: "2023-12-07"
+date: "2023-12-09"
 summary: "Building out the level and adding some game play elements."
 bundle: true
 thumbnail: "gingerbread_thumb.jpg"
@@ -22,7 +22,7 @@ The default SM_ChamferCubes with a light blue texture look great as ice cube blo
 
 ![Gingerbread Land](gingerbread_land.png)
 
-I'm not quite sure what the object (if any) will be, but I know I want the player to be able to throw those little green gumdrops. I also just realized, that apparently I didn't know what a gumdrop looked like. I'm not sure why I thought they looked like gummy Rolos.
+I'm not quite sure what the objective (if any) will be, but I know I want the player to be able to throw those little green gumdrops. I also just realized, that apparently I didn't know what a gumdrop looked like. I'm not sure why I thought they looked like gummy Rolos.
 
 # Throwing action
 I'm going to start with just getting our player shooting out some .. gumdrop/rolos.
