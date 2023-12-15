@@ -1,7 +1,7 @@
 ---
-title: "Unreal Gingerbread Man - Unreal Control"
+title: "Unreal Gingerbread Man - Player Control"
 date: "2023-12-07"
-summary: "Beginning to use our gingerbread man assets within Unreal"
+summary: "Beginning to use our Gingerbread Man assets within Unreal"
 bundle: true
 thumbnail: "gingerbread_thumb.jpg"
 tags: ["Unreal","Blender","3DGraphics"]

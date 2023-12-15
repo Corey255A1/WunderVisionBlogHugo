@@ -53,12 +53,36 @@ I'm going to start with a cylinder here also. Make the base bigger than the top.
 
 ![Gum Drop](gumdrop.png)
 
-And with that I'm done with my assets for now!
 
 # Exporting and importing to Unreal
 Before exporting, since I have all the objects in one blender file, I have to move them to the center before exporting.
 When exporting the Gingerbread, I had to make sure to select the skeleton and the mesh because it wasn't exporting it all at once. (I had export only selected on, but didn't know I needed to select all those pieces explicitly)
 
-![Gingerbread Land](gingerbread_land.png)
+![Imported Assets](imported_assets.png)
 
-And thats all I have so far! I have some rudimentary assets, imported into Unreal. Next will be trying to do something with these assets!!
+
+# Light Bulb
+I determined later on that I needed some light bulbs for my game.
+
+In Blender I created a basic light bulb mesh. Assigned two different materials to its faces and exported it. I wanted to have the bulb to have a slight transparency to look like glass.
+![Light Bulb](lightbulb.png)
+
+When importing into Unreal the Blender materials don't translate exactly so I had to tweak the material a bit. I set the Blend Mode to Translucent which enabled the Opacity field. I set that to a Scalar Param for 0.8 to give it a slight transparency.
+
+![Light Bulb Material](light_bulb_material.png)
+
+And that gives us a lo-fi christmas light bulb!
+
+![Lo-Fi Bulb](lofi_bulb.png)
+
+
+# Level Building
+I then started deleting most of the base default level and then coloring the ground and boundary pieces white. This gives it a snowy feel.
+
+I took a quick diversion to create a couple more pieces. A Wall and Triangle piece to make the Gingerbread house. I found a graham cracker image to tweak and use as a texture for these pieces. Then I tweaked the UVs of the Wall and Triangle to make the textures look decent
+
+I built the gingerbread house with the grahamcracker pieces and added some of the candy and other gingerbread men as decorations.
+
+The default SM_ChamferCubes with a light blue texture look great as ice cube blocks.
+
+![Gingerbread Land](gingerbread_land.png)
