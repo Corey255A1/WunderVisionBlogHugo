@@ -7,15 +7,21 @@ thumbnail: "gingerbread_thumb.jpg"
 tags: ["Unreal","Blender","3DGraphics"]
 ---
 # Introduction
-- [Source](https://github.com/Corey255A1/Unreal-GingerbreadMan/)  
+## Post Series
+- [GitHub Source](https://github.com/Corey255A1/Unreal-GingerbreadMan/)
+- [Blender Assets]({{< ref "/posts/2023-12-04-Unreal_Gingerbread" >}} "Blender Assets")
+- [Player Control]({{< ref "/posts/2023-12-07-Unreal_Gingerbread" >}} "Player Control")
+- [Throw Projectiles]({{< ref "/posts/2023-12-09-Unreal_Gingerbread" >}} "Throw Projectiles")
+- [Game Play]({{< ref "/posts/2023-12-10-Unreal_Gingerbread" >}} "Game Play")
+- [HUD and UI]({{< ref "/posts/2023-12-15-Unreal_Gingerbread" >}} "HUD and UI")
 
 There is a Gingerbread Man code jam being hosted by the Orlando Unreal community. I liked the idea of it so I decided to use that as something to work towards and put what I've learned so far into action.  
-I like trying to do everything from the ground up, but I don't have the time and patientance to create nice looking assets, but I'm going to try it anyway!
+I like trying to do everything from the ground up, but I don't have the time and patience to create nice looking assets, but I'm going to try it anyway!
 
 # Creating the Gingerbread Man
 ## Flatman
 I started with a plane for the torso, subdivided, then extruded out the arms and legs.  
-Next, I created a circle for the head, and to get the radial spokes, I extrude the circle in place. Then scaled those points down to the center and merged the points. I then subdived those lines as well to get the rings. Then I connected some points points from the head to the body to create a neck.
+Next, I created a circle for the head, and to get the radial spokes, I extrude the circle in place. Then scaled those points down to the center and merged the points. I then subdivide those lines as well to get the rings. Then I connected some points points from the head to the body to create a neck.
 ![Flatman](flatman.png)
 
 ## Extrudeman
@@ -37,11 +43,11 @@ I then painted in the eyes and buttons with some basic coloring.
 ![Texture Man](textureman.png)
 
 ## Animations
-Adding some bones was pretty straight foward since it is a simple mesh. Parent the mesh to the armature and the automatic weights worked well enough for me!
+Adding some bones was pretty straight forward since it is a simple mesh. Parent the mesh to the armature and the automatic weights worked well enough for me!
 ![animationman](animationman.png)
 
 # Make a Candy Cane
-The candy cane shape is basically just a bent cylinder. Thats the shape I started with. I then subdivided and then subdivide the upper half and proceded to bend it.
+The candy cane shape is basically just a bent cylinder. Thats the shape I started with. I then subdivided and then subdivide the upper half and proceeded to bend it.
 
 I'm not sure whats going on with the UVs. Again however, I'm not going to spend a ton of time on the assets. haha
 
@@ -81,7 +87,7 @@ I then started deleting most of the base default level and then coloring the gro
 
 I took a quick diversion to create a couple more pieces. A Wall and Triangle piece to make the Gingerbread house. I found a graham cracker image to tweak and use as a texture for these pieces. Then I tweaked the UVs of the Wall and Triangle to make the textures look decent
 
-I built the gingerbread house with the grahamcracker pieces and added some of the candy and other gingerbread men as decorations.
+I built the gingerbread house with the graham cracker pieces and added some of the candy and other gingerbread men as decorations.
 
 The default SM_ChamferCubes with a light blue texture look great as ice cube blocks.
 

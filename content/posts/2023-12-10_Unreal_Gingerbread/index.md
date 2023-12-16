@@ -4,10 +4,16 @@ date: "2023-12-10"
 summary: "Adding more elements and an objective to the game"
 bundle: true
 thumbnail: "gingerbread_thumb.jpg"
-tags: ["Unreal","Blender","3DGraphics"]
+tags: ["Unreal","GameDevelopment"]
 ---
 # Introduction
-- [Source](https://github.com/Corey255A1/Unreal-GingerbreadMan/)  
+## Post Series
+- [GitHub Source](https://github.com/Corey255A1/Unreal-GingerbreadMan/)
+- [Blender Assets]({{< ref "/posts/2023-12-04-Unreal_Gingerbread" >}} "Blender Assets")
+- [Player Control]({{< ref "/posts/2023-12-07-Unreal_Gingerbread" >}} "Player Control")
+- [Throw Projectiles]({{< ref "/posts/2023-12-09-Unreal_Gingerbread" >}} "Throw Projectiles")
+- [Game Play]({{< ref "/posts/2023-12-10-Unreal_Gingerbread" >}} "Game Play")
+- [HUD and UI]({{< ref "/posts/2023-12-15-Unreal_Gingerbread" >}} "HUD and UI")
 
 At the end of my last blog post, I had just gotten the player launching some candy projectiles. Now I'm going to add some additional things to the world to make it more interesting.
 
@@ -20,7 +26,7 @@ What I'll need is to create a light bulb asset, and distribute those throughout 
 
 # Light Bulb Collection
 I'm going to create a Blueprint for the light bulb objects. I gave them a Sphere Collision and set it for Collision Enabled (Query and Physics), Enabled the Physics, and set it to Overlap Pawn. This way the bulbs can have some fun physics.  
-On the player character I created a function called *Collect Bulb* that just increments the number of bulbs.  
+On the player character, I created a function called *Collect Bulb* that just increments the number of bulbs.  
 In the Bulb blueprint, in the Actor Begin Overlap, I cast it to the Gingerbread blueprint, call the Collect Bulb function, and destroy the light bulb.  
 
 ![BP Light Bulb](bp_lightbulb.png)

@@ -7,10 +7,11 @@ slug: "card-player-detecting-cards"
 tags: ["MachineLearning","ComputerVision","Python"]
 ---
 **Phase 4** of my Card Player series. I am attempting to create a solitaire playing bot in python. 
+* **Phase 1**: [Prepare the data set]({{< ref "/posts/card-player-keras-tensorflow">}})
+* **Phase 2**: [Training]({{< ref "/posts/card-player-keras-training">}})
+* **Phase 3**: [Simulate Solitaire]({{< ref "/posts/card-player-command-line-solitaire">}})
+* **Phase 4**: [Label the playing field]({{< ref "/posts/card-player-detecting-cards">}})
 
-* **Phase 1**: [Prepare the data set](/single-post/card-player-keras-tensorflow)
-* **Phase 2**: [Training](/single-post/card-player-keras-training)
-* **Phase 3**: [Simulate Solitaire](/single-post/card-player-command-line-solitaire)
 
 Here is the location of the source code for this project: https://github.com/Corey255A1/PlayingCardsNeuralNet 
 

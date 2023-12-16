@@ -7,10 +7,10 @@ slug: "card-player-command-line-solitaire"
 tags: ["Python","MachineLearning"]
 ---
 This is Phase 3 of the Card Player series I have been blogging about. I am attempting to make a Solitaire playing bot. 
-
-* **Phase 1**: [Prepare the data set](/single-post/card-player-keras-tensorflow)
-* **Phase 2**: [Training](/single-post/card-player-keras-training)
-* **Phase 4**: [Label the playing field](/single-post/card-player-detecting-cards)
+* **Phase 1**: [Prepare the data set]({{< ref "/posts/card-player-keras-tensorflow">}})
+* **Phase 2**: [Training]({{< ref "/posts/card-player-keras-training">}})
+* **Phase 3**: [Simulate Solitaire]({{< ref "/posts/card-player-command-line-solitaire">}})
+* **Phase 4**: [Label the playing field]({{< ref "/posts/card-player-detecting-cards">}})
 
 **Phase 3: Simulating Solitaire**
 

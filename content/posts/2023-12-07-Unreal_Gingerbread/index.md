@@ -4,10 +4,16 @@ date: "2023-12-07"
 summary: "Beginning to use our Gingerbread Man assets within Unreal"
 bundle: true
 thumbnail: "gingerbread_thumb.jpg"
-tags: ["Unreal","Blender","3DGraphics"]
+tags: ["Unreal", "3DGraphics"]
 ---
 # Introduction
-- [Source](https://github.com/Corey255A1/Unreal-GingerbreadMan/)  
+## Post Series
+- [GitHub Source](https://github.com/Corey255A1/Unreal-GingerbreadMan/)
+- [Blender Assets]({{< ref "/posts/2023-12-04-Unreal_Gingerbread" >}} "Blender Assets")
+- [Player Control]({{< ref "/posts/2023-12-07-Unreal_Gingerbread" >}} "Player Control")
+- [Throw Projectiles]({{< ref "/posts/2023-12-09-Unreal_Gingerbread" >}} "Throw Projectiles")
+- [Game Play]({{< ref "/posts/2023-12-10-Unreal_Gingerbread" >}} "Game Play")
+- [HUD and UI]({{< ref "/posts/2023-12-15-Unreal_Gingerbread" >}} "HUD and UI")
 
 Now that I have some assets, I'm going to start building a level. I'm starting with the Third Person template and going from there.
 

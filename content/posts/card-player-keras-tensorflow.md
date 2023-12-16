@@ -10,9 +10,10 @@ This we be split over several different blog posts because my end goal is to use
 
 The code is all here: [https://github.com/Corey255A1/PlayingCardsNeuralNet](https://github.com/Corey255A1/PlayingCardsNeuralNet)
 
-* **Phase 2**: [Training](/single-post/card-player-keras-training)
-* **Phase 3**: [Simulate Solitaire](/single-post/card-player-command-line-solitaire)
-* **Phase 4**: [Label the playing field](/single-post/card-player-detecting-cards)
+* **Phase 1**: [Prepare the data set]({{< ref "/posts/card-player-keras-tensorflow">}})
+* **Phase 2**: [Training]({{< ref "/posts/card-player-keras-training">}})
+* **Phase 3**: [Simulate Solitaire]({{< ref "/posts/card-player-command-line-solitaire">}})
+* **Phase 4**: [Label the playing field]({{< ref "/posts/card-player-detecting-cards">}})
 
 **Phase 1: Prepare the Training Data**
 

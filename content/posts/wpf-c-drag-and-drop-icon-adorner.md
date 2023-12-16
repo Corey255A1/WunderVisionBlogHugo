@@ -111,7 +111,7 @@ private void UserControl_PreviewGiveFeedback(object sender, GiveFeedbackEventArg
 }
 ```
 
-When the Dragging is happening there is another even that gets fired and that is the **PreviewGiveFeedback**. It is in here that we call into GetMousePosition and then update the position of our adorner. To update its position, you call the adornment **.Arrange(new Rect(Point, Size));** Remember to translate your GetCursorPoint into a point that is relative to the adorned element using **PointFromScreen**.
+When the Dragging is happening there is another event that gets fired and that is the **PreviewGiveFeedback**. It is in here that we call into GetMousePosition and then update the position of our adorner. To update its position, you call the adornment **.Arrange(new Rect(Point, Size));** Remember to translate your GetCursorPoint into a point that is relative to the adorned element using **PointFromScreen**.
 
 You should now see an adornment following the mouse during the drag operation!
 
