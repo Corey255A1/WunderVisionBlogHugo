@@ -15,7 +15,12 @@ tags: ["Unreal","GameUI"]
 - [Game Play]({{< ref "/posts/2023-12-10-Unreal_Gingerbread" >}} "Game Play")
 - [HUD and UI]({{< ref "/posts/2023-12-15-Unreal_Gingerbread" >}} "HUD and UI")
 
-We have an objective now to collect light bulbs. However, currently there is no way for the user to know how many light bulbs there are to collect, and how many have been collected so far. In this post, I will add a few basic UI elements to make the game more complete.
+We have an objective now to collect light bulbs. However, currently there is no way for the user to know how many light bulbs there are to collect, and how many have been collected so far. In this post, I will add a few basic UI elements and some sound to make the game more complete!
+
+<div class="embed-youtube">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ejexwNJ2QHo?si=P4ldoObxf2eucafK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 
 # HUD Overlay
 Games always have some kind of overlay to read out health, or item counts. I'm going to create a simple counter to display the number of light bulbs collected.  
