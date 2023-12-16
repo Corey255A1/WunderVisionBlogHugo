@@ -14,6 +14,7 @@ tags: ["Unreal","GameDevelopment"]
 - [Throw Projectiles]({{< ref "/posts/2023-12-09-Unreal_Gingerbread" >}} "Throw Projectiles")
 - [Game Play]({{< ref "/posts/2023-12-10-Unreal_Gingerbread" >}} "Game Play")
 - [HUD and UI]({{< ref "/posts/2023-12-15-Unreal_Gingerbread" >}} "HUD and UI")
+
 I have some assets. I have a gingerbread man player. Now I can start building out the level and adding some game play elements! First is getting our player to throw some candy projectiles.
 
 # Launching a Projectile
