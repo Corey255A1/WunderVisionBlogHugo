@@ -16,6 +16,9 @@
               <div>
                 {{ .Content | safeHTML }}
               </div>
+              {{ if isset .Params "blog_link"}}
+              <a class="btn color2" href="{{ .Params.blog_link }}">Blog Post</a>
+              {{ end }}
               <a class="btn color2" href="{{ .Params.demo_link }}">Demo</a>
               <a class="btn color2" href="{{ .Params.github_link }}">GitHub</a>
             </div>

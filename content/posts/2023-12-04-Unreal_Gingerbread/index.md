@@ -8,12 +8,13 @@ tags: ["Unreal","Blender","3DGraphics"]
 ---
 # Introduction
 ## Post Series
-- [GitHub Source](https://github.com/Corey255A1/Unreal-GingerbreadMan/)
 - [Blender Assets]({{< ref "/posts/2023-12-04-Unreal_Gingerbread" >}} "Blender Assets")
 - [Player Control]({{< ref "/posts/2023-12-07-Unreal_Gingerbread" >}} "Player Control")
 - [Throw Projectiles]({{< ref "/posts/2023-12-09-Unreal_Gingerbread" >}} "Throw Projectiles")
 - [Game Play]({{< ref "/posts/2023-12-10-Unreal_Gingerbread" >}} "Game Play")
 - [HUD and UI]({{< ref "/posts/2023-12-15-Unreal_Gingerbread" >}} "HUD and UI")
+
+**[GitHub Source](https://github.com/Corey255A1/Unreal-GingerbreadMan/)**
 
 There is a Gingerbread Man code jam being hosted by the Orlando Unreal community. I liked the idea of it so I decided to use that as something to work towards and put what I've learned so far into action.  
 I like trying to do everything from the ground up, but I don't have the time and patience to create nice looking assets, but I'm going to try it anyway!
