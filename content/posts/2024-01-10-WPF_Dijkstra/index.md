@@ -15,6 +15,10 @@ tags: ["C#","WPF","UI"]
 - [Commands and Undo]({{< ref "/posts/2024-01-11-WPF_Dijkstra" >}} "Commands and Undo")
 - [Style and Animation]({{< ref "/posts/2024-01-12-WPF_Dijkstra" >}} "Style and Animation")
 
+<div class="embed-youtube">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Jnjx4tN-yTg?si=k4sY_vvMdMk7V534" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 The last post I discussed briefly Dijkstra's algorithm and some things that I did to split the algorithm solving code out in to its own library for easier testing. Now we'll get in to how the various GUI elements are implemented.
 
 # Node Canvas

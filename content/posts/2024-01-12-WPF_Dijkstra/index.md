@@ -14,6 +14,11 @@ tags: ["C#","WPF","UI"]
 - [Style and Animation]({{< ref "/posts/2024-01-12-WPF_Dijkstra" >}} "Style and Animation")
 
 **[GitHub Source](https://github.com/Corey255A1/DijkstraCoffeeAndCode)**
+
+<div class="embed-youtube">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Jnjx4tN-yTg?si=k4sY_vvMdMk7V534" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 With WPF you can use resources to define the styles of pretty much all the components of the GUI. Its a similar idea to CSS with HTML. You can create a resource file with different colors and brushes then swap between those and the elements update their colors automatically.
 
 A pretty cool feature is how you can directly bind properties to trigger different states. For example the Node view.

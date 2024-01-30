@@ -15,6 +15,10 @@ tags: ["C#","WPF","UI"]
 - [Commands and Undo]({{< ref "/posts/2024-01-11-WPF_Dijkstra" >}} "Commands and Undo")
 - [Style and Animation]({{< ref "/posts/2024-01-12-WPF_Dijkstra" >}} "Style and Animation")
 
+<div class="embed-youtube">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Jnjx4tN-yTg?si=k4sY_vvMdMk7V534" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 WPF has the ability to bind Commands from the viewmodel to Buttons and Menu options on the view. This also gives flexibility in sharing those commands between different buttons or selections without have to create click handlers for each one on the view.
 Also when using Commands it becomes easier to funnel those commands into an Undo/Redo system.
 

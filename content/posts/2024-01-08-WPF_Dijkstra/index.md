@@ -15,6 +15,10 @@ tags: ["C#","WPF","UI"]
 - [Commands and Undo]({{< ref "/posts/2024-01-11-WPF_Dijkstra" >}} "Commands and Undo")
 - [Style and Animation]({{< ref "/posts/2024-01-12-WPF_Dijkstra" >}} "Style and Animation")
 
+<div class="embed-youtube">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Jnjx4tN-yTg?si=k4sY_vvMdMk7V534" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Another project that I created in 2018 was a WPF application to view Dijkstra's shortest path algorithm. I pretty much made the UI in a day without a real understanding of WPF. I was also not focused on making it user friendly at all. I was focused on implementing the algorithm as quick as possible.
 
 I rewrote the whole gui to use data binding, commands, and other WPF techniques. I kept the spirit of the original application while adding undo/redo, coordinate editing, zooming, saving, day/night themes, multiselect, and more. It was fun to implement all the core user concepts into an application that doesn't really serve much of a purpose.
