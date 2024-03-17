@@ -9,11 +9,13 @@ tags: ["C#","WPF","UI"]
 # Introduction
 **[GitHub Source](https://github.com/Corey255A1/FunKeyView)**
 
+When I was creating the video for the [WPF Dijkstra]({{< ref "/posts/2024-01-08-WPF_Dijkstra" >}} "WPF Dijkstra"), I wanted a way to show my key presses on the screen in real time. Of course there are already probably hundreds of projects that do this. I, however, thought I could make one fairly quickly that would solve the need and be another fun project.
+
+
 <div class="embed-youtube">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TUixcwogCYc?si=7TEI2q6QDIEV_Zkq" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-When I was creating the video for the [WPF Dijkstra]({{< ref "/posts/2024-01-08-WPF_Dijkstra" >}} "WPF Dijkstra"), I wanted a way to show my key presses on the screen in real time. Of course there are already probably hundreds of projects that do this. I, however, thought I could make one fairly quickly that would solve the need and be another fun project.
 
 # Getting the Key States
 The most important part of a key viewer, is getting the key presses as they are typed. There are several ways to capture the key strokes.

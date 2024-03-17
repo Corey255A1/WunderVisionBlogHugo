@@ -4,7 +4,7 @@ date: "2024-02-02"
 summary: "I used the Bing Copilot to help code and it was impressive"
 bundle: true
 thumbnail: "thumb.jpg"
-tags: ["C#","WPF","UI"]
+tags: ["AI", "C#"]
 ---
 # Use of Bing CoPilot
 I've been playing with the Bing Copilot to generate images and ask questions. For this, I decided to see how helpful it could be. It impressed me a lot.
