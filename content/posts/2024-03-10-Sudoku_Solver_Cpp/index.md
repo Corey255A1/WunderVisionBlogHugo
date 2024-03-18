@@ -25,7 +25,7 @@ The backtrack algorithm is easy to understand. For each cell, find the next vali
 ![Emoji Solving](emoji_solve_smaller_shorter.gif)
 
 Here is the concept that I went with in pseudo code.
-```
+```basic
 Initialize currentRow = 0
 Initialize currentColumn = 0
 
@@ -55,14 +55,14 @@ While currentRow < boardSize:
 ```
 # Quick Code Overview
 - **SudokuBoard** this contains a vector of SudokuCells. It contains methods to set cell values and retrieve the valid values for a cell
-- **SudokuCell** A SudokuCell basically can be set as readonly to prevent the algorithm from altering it. Its value is a SudokuValue.
+- **SudokuCell** a SudokuCell basically can be set as readonly to prevent the algorithm from altering it. Its value is a SudokuValue.
 - **SudokuValue** is a base class for the SudokuValueInt and SudokuValueEmoji. This makes the board agnostic to the underlying value types or ranges
-- **SudokuValueRange** The Value Range, defines what possible values that SudokuValue can have. It also serves as a factory to create or grab values.
+- **SudokuValueRange** defines what possible values that SudokuValue can have. It also serves as a factory to create or grab values.
 - **SudokuBacktrack** is the class the implements the backtrack algorithm and operates on the board. I split the solve loop into the take step method so that it is easier to visualize each step.
 - **SudokuFileReader** parse the Sudoku File and potential headers and creates an appropriate value range and board.
 
 # Sudoku Value
-When I first started, I focused on completing the main idea which was to read in at least a 9x9 grid and solve the standard Sudoku board. As I was looking at this code in the getValidValues:
+When I first started, I focused on completing the main idea which was to read in atleast a 9x9 grid and solve the standard Sudoku board. As I was looking at this code in the getValidValues:
 ```c++
 std::set<int> validValues;
 for (int value = 1; value <= m_size; value++) { validValues.insert(value); }
@@ -78,7 +78,7 @@ if (cell.isValid())
 }
 ```
 
-I was realizing that the validValues didn't have to be ints, and could just be a range of some class. While thinking about how I could take a boring a Sudoku solver to the next level, I imagined a range of emojis.
+I was realizing that the validValues didn't have to be ints, and could just be a range of some class. While thinking about how I could take a boring a Sudoku solver to the next level... I imagined a range of emojis.
 
 Eventually this:
 ```c++
@@ -104,7 +104,7 @@ std::shared_ptr<const SudokuValueRange> getValueRange() const;
 bool isDefault() const;
 ```
 
-The comparisons are then defined in the subclasses to compare the values appropriately
+The comparisons are then defined in the subclasses to compare their values appropriately
 
 ```c++
 
@@ -335,7 +335,7 @@ The first commit I pushed that declared this a working solver
 - To solve the "hard" -- mostly in the **0.03s** range
 - To solve the "hardest" -- mostly in the **0.13s** range
 
-This was faster than the current implementation not too much.
+This was faster than the current implementation, but not too much.
 
 
 ## At commit "Fully Generic SudokuValue.. for better or worse"
